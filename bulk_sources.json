@@ -1,0 +1,234 @@
+[
+  {
+    "id": "city-news",
+    "label": "Город Суботица — новости",
+    "urls": [
+      "http://subotica.rs/",
+      "https://www.subotica.rs/"
+    ],
+    "keywords": [
+      "subotica",
+      "vesti",
+      "news"
+    ]
+  },
+  {
+    "id": "city-enterprises",
+    "label": "Город Суботица — предприятия",
+    "urls": [
+      "http://subotica.rs/"
+    ],
+    "keywords": [
+      "preduzeca",
+      "javna",
+      "informacije"
+    ]
+  },
+  {
+    "id": "city-gazette",
+    "label": "Город Суботица — официальные документы",
+    "urls": [
+      "http://subotica.rs/"
+    ],
+    "keywords": [
+      "sluzbeni",
+      "list",
+      "glasnik"
+    ]
+  },
+  {
+    "id": "sutrans",
+    "label": "Sutrans",
+    "urls": [
+      "http://sutrans.rs/",
+      "https://www.sutrans.rs/",
+      "https://sutrans.rs/"
+    ],
+    "keywords": [
+      "vesti",
+      "obavestenja",
+      "novosti"
+    ]
+  },
+  {
+    "id": "cistoca",
+    "label": "Čistoća Subotica",
+    "urls": [
+      "https://cistoca-su.rs/",
+      "http://cistoca-su.rs/"
+    ],
+    "keywords": [
+      "vesti",
+      "novosti",
+      "obavestenja"
+    ]
+  },
+  {
+    "id": "parking",
+    "label": "Parking Subotica",
+    "urls": [
+      "https://suparking.rs/",
+      "http://suparking.rs/"
+    ],
+    "keywords": [
+      "vesti",
+      "novosti",
+      "obavestenja"
+    ]
+  },
+  {
+    "id": "deponija",
+    "label": "Regionalna deponija",
+    "urls": [
+      "http://deponija.rs/",
+      "https://deponija.rs/"
+    ],
+    "keywords": [
+      "vesti",
+      "novosti",
+      "obavestenja"
+    ]
+  },
+  {
+    "id": "stadion",
+    "label": "JKP Stadion",
+    "urls": [
+      "https://jkp-stadion.rs/",
+      "http://jkp-stadion.rs/"
+    ],
+    "keywords": [
+      "vesti",
+      "novosti"
+    ]
+  },
+  {
+    "id": "subotica-info",
+    "label": "Subotica.info",
+    "urls": [
+      "https://www.subotica.info/",
+      "http://www.subotica.info/"
+    ],
+    "keywords": [
+      "vesti",
+      "news",
+      "subotica"
+    ]
+  },
+  {
+    "id": "maglocistac",
+    "label": "Magločistač",
+    "urls": [
+      "https://www.maglocistac.rs/",
+      "https://maglocistac.rs/"
+    ],
+    "keywords": [
+      "vesti",
+      "subotica",
+      "najnovije"
+    ]
+  },
+  {
+    "id": "dnevnik",
+    "label": "Dnevnik — Subotica",
+    "urls": [
+      "https://www.dnevnik.rs/"
+    ],
+    "keywords": [
+      "subotica"
+    ]
+  },
+  {
+    "id": "rtv-subotica",
+    "label": "RTV Vojvodina — Subotica",
+    "urls": [
+      "https://www.rtv.rs/sr_lat/",
+      "https://www.rtv.rs/"
+    ],
+    "keywords": [
+      "subotica",
+      "backa",
+      "vojvodina"
+    ]
+  },
+  {
+    "id": "pannon-sections",
+    "label": "Pannon RTV — local sections",
+    "urls": [
+      "https://pannonrtv.com/"
+    ],
+    "keywords": [
+      "szabadka",
+      "subotica"
+    ]
+  },
+  {
+    "id": "magyarszo-tag",
+    "label": "Magyar Szó — Szabadka tag",
+    "urls": [
+      "https://www.magyarszo.rs/"
+    ],
+    "keywords": [
+      "szabadka"
+    ]
+  },
+  {
+    "id": "palic-zoo",
+    "label": "Zoo Palić",
+    "urls": [
+      "https://zoopalic.com/",
+      "https://www.zoopalic.com/"
+    ],
+    "keywords": [
+      "vesti",
+      "novosti",
+      "aktuelno"
+    ]
+  },
+  {
+    "id": "palic-aquapark",
+    "label": "Aquapark Palić",
+    "urls": [
+      "https://aquaparkpalic.rs/",
+      "https://www.aquaparkpalic.rs/"
+    ],
+    "keywords": [
+      "vesti",
+      "novosti"
+    ]
+  },
+  {
+    "id": "palic-film",
+    "label": "Festival evropskog filma Palić",
+    "urls": [
+      "https://www.palicfilmfestival.com/"
+    ],
+    "keywords": [
+      "news",
+      "vesti",
+      "novosti"
+    ]
+  },
+  {
+    "id": "subotica-culture",
+    "label": "Культура Суботицы",
+    "urls": [
+      "https://www.subotica.rs/"
+    ],
+    "keywords": [
+      "kultura",
+      "dogadjaji"
+    ]
+  },
+  {
+    "id": "electricity-outages",
+    "label": "Электроснабжение — отключения",
+    "urls": [
+      "https://www.elektrodistribucija.rs/"
+    ],
+    "keywords": [
+      "iskljucenja",
+      "subotica",
+      "planirana"
+    ]
+  }
+]
