@@ -1,4 +1,4 @@
-"""Subotica RSS source audit + conservative feed generator (v2).
+"""Subotica RSS source audit + conservative feed generator (v3).
 No fabricated dates; no global TLS verification bypass.
 """
 import json, re, time, hashlib
@@ -115,6 +115,33 @@ def save_rss(source, items):
     return path
 
 
+def probe_feed_without_homepage(source):
+    """A 403/SSL error on the homepage must not prevent checking public RSS endpoints."""
+    base = source.get('url')
+    if not base:
+        return None
+    parsed = urlparse(base)
+    host = f'{parsed.scheme}://{parsed.netloc}'
+    urls = [host + path for path in ('/feed/', '/feed', '/rss/', '/rss.xml', '/feed.xml', '/atom.xml', '/index.php?format=feed&type=rss')]
+    # Try common WordPress category feeds only when category URLs are explicitly supplied.
+    for section in source.get('sections', []):
+        urls.append(urljoin(base, section.rstrip('/') + '/feed/'))
+    for candidate in dict.fromkeys(urls):
+        try:
+            r = fetch(candidate)
+            parsed_feed = parse_feed(r.content)
+            if parsed_feed and parsed_feed['items']:
+                return {'id': source['id'], 'status': 'native_feed_verified', 'url': r.url, 'feed': parsed_feed, 'discovery': 'direct_feed_probe'}
+        except requests.RequestException:
+            continue
+    return None
+
+
+def failure_with_feed_fallback(source, failure):
+    found = probe_feed_without_homepage(source)
+    return found if found else failure
+
+
 def check(source):
     sid = source['id']
     if source.get('mode') == 'existing':
@@ -133,12 +160,12 @@ def check(source):
     try:
         response = fetch(url)
     except requests.exceptions.SSLError as exc:
-        return {'id': sid, 'status': 'ssl_error', 'url': url, 'error': str(exc)[:300]}
+        return failure_with_feed_fallback(source, {'id': sid, 'status': 'ssl_error', 'url': url, 'error': str(exc)[:300]})
     except requests.exceptions.HTTPError as exc:
         code = exc.response.status_code if exc.response is not None else None
-        return {'id': sid, 'status': 'http_error', 'http_status': code, 'url': url, 'error': str(exc)[:300]}
+        return failure_with_feed_fallback(source, {'id': sid, 'status': 'http_error', 'http_status': code, 'url': url, 'error': str(exc)[:300]})
     except requests.RequestException as exc:
-        return {'id': sid, 'status': 'fetch_failed', 'url': url, 'error': str(exc)[:300]}
+        return failure_with_feed_fallback(source, {'id': sid, 'status': 'fetch_failed', 'url': url, 'error': str(exc)[:300]})
     direct = parse_feed(response.content)
     if direct:
         return {'id': sid, 'status': 'native_feed_verified' if direct['items'] else 'native_feed_empty', 'url': response.url, 'feed': direct}
@@ -158,7 +185,7 @@ def check(source):
     if items:
         path = save_rss(source, items)
         return {'id': sid, 'status': 'generated', 'url': f'feeds/{path.name}', 'items': len(items)}
-    return {'id': sid, 'status': 'needs_custom_parser', 'empty_feeds': empty, 'reason': 'No trustworthy dated articles found; no feed fabricated'}
+    return {'id': sid, 'status': 'needs_custom_parser', 'empty_feeds': empty, 'reason': 'No trustworthy dated articles found; no feed fabricated', 'next_action': 'site-specific parser or official alternate source required'}
 
 
 def main():
