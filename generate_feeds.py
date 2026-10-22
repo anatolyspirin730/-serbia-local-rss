@@ -288,9 +288,15 @@ def generate_rss(articles, source):
     )
     ET.SubElement(channel, "language").text = "sr"
     ET.SubElement(channel, "lastBuildDate").text = format_datetime(
-        datetime.now(timezone.utc)
+    max(
+        (
+            datetime.fromisoformat(article["publication_date"])
+            for article in articles
+            if article.get("publication_date")
+        ),
+        default=datetime.now(timezone.utc),
     )
-
+)
     for article in articles:
         item = ET.SubElement(channel, "item")
 
