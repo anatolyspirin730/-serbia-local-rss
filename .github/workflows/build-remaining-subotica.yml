@@ -1,0 +1,42 @@
+name: Build Remaining Subotica RSS
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 */6 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: subotica-remaining-feeds
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install requests beautifulsoup4 python-dateutil
+      - name: Probe sources and build dated feeds
+        run: python build_remaining_subotica.py
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: remaining-subotica-rss-report
+          path: audit-results/bulk_rss_report.json
+          if-no-files-found: warn
+      - name: Commit only verified nonempty feeds
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add 'feeds/bulk-*.xml' 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update remaining Subotica RSS feeds'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            echo 'No verified new feed changes'
+          fi
