@@ -1,5 +1,6 @@
 name: Build Subotica Cistoca RSS
-on:
+
+'on':
   workflow_dispatch:
   schedule:
     - cron: '23 * * * *'
