@@ -39,7 +39,8 @@
     "id": "vodovodsu",
     "status": "needs_custom_parser",
     "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated"
+    "reason": "No trustworthy dated articles found; no feed fabricated",
+    "next_action": "site-specific parser or official alternate source required"
   },
   {
     "id": "cistoca-su",
@@ -82,7 +83,8 @@
     "id": "palic-ludas",
     "status": "needs_custom_parser",
     "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated"
+    "reason": "No trustworthy dated articles found; no feed fabricated",
+    "next_action": "site-specific parser or official alternate source required"
   },
   {
     "id": "park-palic",
@@ -101,12 +103,9 @@
   },
   {
     "id": "supijace",
-    "status": "native_feed_verified",
-    "url": "https://supijace.co.rs/feed/",
-    "feed": {
-      "format": "rss",
-      "items": 10
-    }
+    "status": "fetch_failed",
+    "url": "https://supijace.co.rs/",
+    "error": "HTTPSConnectionPool(host='supijace.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='supijace.co.rs', port=443) at 0x7f5005c78410>, 'Connection to supijace.co.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "stadion",
@@ -119,7 +118,8 @@
     "id": "pogrebno",
     "status": "needs_custom_parser",
     "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated"
+    "reason": "No trustworthy dated articles found; no feed fabricated",
+    "next_action": "site-specific parser or official alternate source required"
   },
   {
     "id": "dimnicar",
@@ -164,35 +164,44 @@
   },
   {
     "id": "pannonrtv",
-    "status": "http_error",
-    "http_status": 403,
-    "url": "https://pannonrtv.com/",
-    "error": "403 Client Error: Forbidden for url: https://pannonrtv.com/"
+    "status": "native_feed_verified",
+    "url": "https://pannonrtv.com/feed",
+    "feed": {
+      "format": "rss",
+      "items": 50
+    },
+    "discovery": "direct_feed_probe"
   },
   {
     "id": "magyarszo-szabadka",
     "status": "needs_custom_parser",
     "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated"
+    "reason": "No trustworthy dated articles found; no feed fabricated",
+    "next_action": "site-specific parser or official alternate source required"
   },
   {
     "id": "rtv-subotica",
     "status": "needs_custom_parser",
     "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated"
+    "reason": "No trustworthy dated articles found; no feed fabricated",
+    "next_action": "site-specific parser or official alternate source required"
   },
   {
     "id": "dnevnik-subotica",
-    "status": "http_error",
-    "http_status": 403,
-    "url": "https://www.dnevnik.rs/",
-    "error": "403 Client Error: Forbidden for url: https://www.dnevnik.rs/"
+    "status": "native_feed_verified",
+    "url": "https://www.dnevnik.rs/rss.xml",
+    "feed": {
+      "format": "rss",
+      "items": 100
+    },
+    "discovery": "direct_feed_probe"
   },
   {
     "id": "magyarszo-tag",
     "status": "needs_custom_parser",
     "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated"
+    "reason": "No trustworthy dated articles found; no feed fabricated",
+    "next_action": "site-specific parser or official alternate source required"
   },
   {
     "id": "maglocistac-all",
