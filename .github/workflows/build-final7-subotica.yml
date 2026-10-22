@@ -1,0 +1,40 @@
+name: Build Final 7 Subotica RSS
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17,47 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: final7-subotica-rss
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 python-dateutil
+      - name: Build feeds and diagnostics
+        run: python build_final7_subotica.py
+      - name: Upload full diagnostic report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: final7-subotica-report
+          path: audit-results/final7_rss_report.json
+          if-no-files-found: warn
+      - name: Commit only new verified feeds
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add feeds/final7-*.xml 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update verified final seven Subotica RSS feeds'
+            git push
+          else
+            echo 'No new or changed verified feeds'
+          fi
