@@ -5,7 +5,13 @@
     <link>https://suboticke.rs/tema/srbija/vesti/</link>
     <description>Новости: Subotičke — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Thu, 22 Oct 2026 07:19:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 08:10:09 +0000</lastBuildDate>
+    <item>
+      <title>Danas u Subotici do 17 stepeni, isključenja struje i ispiranje vodovodne mreže</title>
+      <link>https://suboticke.rs/servisne-informacije-subotica-22-oktobar-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/servisne-informacije-subotica-22-oktobar-2026/</guid>
+      <pubDate>Thu, 22 Oct 2026 09:54:01 +0200</pubDate>
+    </item>
     <item>
       <title>Jasna Vojnić u Hrvatskom saboru: Izbori za HNV odrediće dalji pravac hrvatske zajednice u Srbiji</title>
       <link>https://suboticke.rs/jasna-vojnic-izbori-hrvatsko-nacionalno-vece/</link>
@@ -205,16 +211,10 @@
       <pubDate>Tue, 13 Oct 2026 08:45:57 +0200</pubDate>
     </item>
     <item>
-      <title>Hladno jutro u Subotici: Počinju tople probe, Bikovački put zatvoren, mogući prekidi vode</title>
-      <link>https://suboticke.rs/servisne-informacije-subotica-13-oktobar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/servisne-informacije-subotica-13-oktobar-2026/</guid>
-      <pubDate>Tue, 13 Oct 2026 08:34:54 +0200</pubDate>
-    </item>
-    <item>
-      <title>„Njen džez“ u „Zvucima srca“: Jasna Jovićević Quinary i mlada saksofonistkinja Miona Maksimović</title>
-      <link>https://suboticke.rs/zvuci-srca-subotica-dzez-radionica-sveca/</link>
-      <guid isPermaLink="true">https://suboticke.rs/zvuci-srca-subotica-dzez-radionica-sveca/</guid>
-      <pubDate>Wed, 21 Oct 2026 14:06:08 +0200</pubDate>
+      <title>Noćas vrhunac Orionida: Hoće li oblaci Subotičanima zakloniti meteore?</title>
+      <link>https://suboticke.rs/orionidi-subotica-vrhunac-21-22-oktobar-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/orionidi-subotica-vrhunac-21-22-oktobar-2026/</guid>
+      <pubDate>Wed, 21 Oct 2026 15:12:16 +0200</pubDate>
     </item>
   </channel>
 </rss>
