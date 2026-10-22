@@ -1,93 +1,179 @@
-import json, os, re, hashlib, html, time
+"""Subotica RSS source audit + conservative feed generator (v2).
+No fabricated dates; no global TLS verification bypass.
+"""
+import json, re, time, hashlib
 from pathlib import Path
 from datetime import datetime, timezone
-from email.utils import format_datetime
-from urllib.parse import urljoin,urlparse
+from email.utils import format_datetime, parsedate_to_datetime
+from urllib.parse import urljoin, urlparse
+from xml.etree import ElementTree as ET
 import requests
 from bs4 import BeautifulSoup
-from xml.etree import ElementTree as ET
-ROOT=Path(__file__).parent
-SOURCES=json.loads((ROOT/'sources.json').read_text())
-OUT=ROOT/'feeds';OUT.mkdir(exist_ok=True)
-HEADERS={'User-Agent':'Mozilla/5.0 (compatible; SuboticaTodayFeedMonitor/1.0; +https://github.com/)'}
-S=requests.Session();S.headers.update(HEADERS)
-REPORT=[]
+
+ROOT = Path(__file__).resolve().parent
+SOURCES = json.loads((ROOT / 'sources.json').read_text(encoding='utf-8'))
+OUT = ROOT / 'feeds'
+OUT.mkdir(exist_ok=True)
+SESSION = requests.Session()
+SESSION.headers.update({'User-Agent': 'Mozilla/5.0 (compatible; SuboticaTodayFeedMonitor/2.0)', 'Accept': 'text/html,application/rss+xml,application/atom+xml,application/xml;q=0.9,*/*;q=0.8'})
+REPORT = []
+TIMEOUT = (8, 20)
+
+
 def fetch(url):
- r=S.get(url,timeout=18,allow_redirects=True);r.raise_for_status();return r
+    response = SESSION.get(url, timeout=TIMEOUT, allow_redirects=True)
+    response.raise_for_status()
+    return response
 
-def discover(soup,base):
- found=[]
- for tag in soup.select('link[rel]'):
-  if 'alternate' in (tag.get('rel') or []) and ('rss' in tag.get('type','') or 'atom' in tag.get('type','')):
-   found.append(urljoin(base,tag.get('href','')))
- host=f'{urlparse(base).scheme}://{urlparse(base).netloc}'
- for p in ['/feed','/rss','/rss.xml','/feed.xml','/atom.xml','/index.xml']:
-  found.append(host+p)
- return list(dict.fromkeys(found))
 
-def valid_feed(content):
- try:
-  root=ET.fromstring(content)
-  tag=root.tag.lower();return tag.endswith('rss') or tag.endswith('feed') or tag.endswith('rdf')
- except ET.ParseError:return False
+def parse_feed(data):
+    try:
+        root = ET.fromstring(data)
+    except ET.ParseError:
+        return None
+    name = root.tag.rsplit('}', 1)[-1].lower()
+    if name not in ('rss', 'feed', 'rdf'):
+        return None
+    entries = root.findall('.//item') if name != 'feed' else root.findall('{http://www.w3.org/2005/Atom}entry')
+    if name == 'feed' and not entries:
+        entries = root.findall('entry')
+    return {'format': name, 'items': len(entries)}
 
-def candidates(soup,base):
- host=urlparse(base).netloc.removeprefix('www.')
- container=soup.select_one('main') or soup.select_one('article') or soup.body or soup
- items=[];seen=set()
- for a in container.select('h1 a[href],h2 a[href],h3 a[href],article a[href],.news a[href],.vesti a[href],.post a[href]'):
-  href=urljoin(base,a.get('href',''));p=urlparse(href)
-  if p.netloc.removeprefix('www.')!=host or href in seen:continue
-  title=a.get_text(' ',strip=True)
-  if len(title)<18 or len(title)>220 or p.path in ('','/'):continue
-  seen.add(href)
-  parent=a.find_parent('article') or a.find_parent(class_=re.compile('news|vest|post|item',re.I)) or a.parent
-  date=None
-  tm=parent.find('time') if parent else None
-  if tm:date=tm.get('datetime')
-  if not date and parent:
-   meta=parent.select_one('[itemprop="datePublished"],meta[property="article:published_time"]')
-   if meta:date=meta.get('content')
-  if not date:continue # Never invent a publication timestamp
-  try:
-   dt=datetime.fromisoformat(date.replace('Z','+00:00'))
-   if not dt.tzinfo:continue
-  except ValueError:continue
-  items.append((title,href,dt))
- return items[:80]
 
-def write_rss(src,items):
- rss=ET.Element('rss',version='2.0');ch=ET.SubElement(rss,'channel')
- for k,v in [('title',src['name']),('link',src['url']),('description','Subotica Today monitored source')]:ET.SubElement(ch,k).text=v
- for title,link,dt in sorted(items,key=lambda x:x[2],reverse=True)[:80]:
-  it=ET.SubElement(ch,'item');ET.SubElement(it,'title').text=title;ET.SubElement(it,'link').text=link
-  ET.SubElement(it,'guid',isPermaLink='true').text=link
-  ET.SubElement(it,'pubDate').text=format_datetime(dt.astimezone(timezone.utc))
- ET.indent(rss)
- (OUT/(src['id']+'.xml')).write_bytes(ET.tostring(rss,encoding='utf-8',xml_declaration=True))
+def feed_urls(soup, base):
+    urls = []
+    for link in soup.find_all('link', href=True):
+        rel = link.get('rel') or []
+        typ = (link.get('type') or '').lower()
+        if 'alternate' in rel and any(x in typ for x in ('rss', 'atom', 'xml')):
+            urls.append(urljoin(base, link['href']))
+    for a in soup.select('a[href]'):
+        href = a['href']
+        if re.search(r'(?i)(?:/feed/?$|/rss(?:\.xml|/?$)|format=feed|atom\.xml)', href):
+            urls.append(urljoin(base, href))
+    p = urlparse(base)
+    host = f'{p.scheme}://{p.netloc}'
+    urls.extend(host + path for path in ('/feed/', '/rss/', '/rss.xml', '/feed.xml', '/atom.xml', '/index.php?format=feed&type=rss'))
+    return list(dict.fromkeys(urls))[:20]
+
+
+def parse_date(raw):
+    if not raw:
+        return None
+    try:
+        dt = datetime.fromisoformat(str(raw).strip().replace('Z', '+00:00'))
+    except (ValueError, TypeError):
+        try:
+            dt = parsedate_to_datetime(str(raw))
+        except (ValueError, TypeError, IndexError):
+            return None
+    if dt.tzinfo is None:
+        return None
+    return dt.astimezone(timezone.utc)
+
+
+def extract_items(soup, base):
+    hostname = urlparse(base).netloc.removeprefix('www.')
+    container = soup.select_one('main') or soup.body or soup
+    results = {}
+    for a in container.select('article a[href], h2 a[href], h3 a[href], .news a[href], .vesti a[href], .post a[href]'):
+        href = urljoin(base, a['href']).split('#')[0]
+        parsed = urlparse(href)
+        if parsed.scheme not in ('https', 'http') or parsed.netloc.removeprefix('www.') != hostname:
+            continue
+        title = a.get_text(' ', strip=True)
+        if not 18 <= len(title) <= 220 or parsed.path in ('', '/'):
+            continue
+        parent = a.find_parent('article') or a.find_parent(class_=re.compile('news|vest|post|item', re.I)) or a.parent
+        raw = None
+        if parent:
+            tag = parent.find('time')
+            if tag:
+                raw = tag.get('datetime') or tag.get('content')
+            if not raw:
+                meta = parent.select_one('[itemprop="datePublished"], meta[property="article:published_time"], meta[name="date"]')
+                if meta:
+                    raw = meta.get('content') or meta.get('datetime')
+        dt = parse_date(raw)
+        if dt and href not in results:
+            results[href] = (title, href, dt)
+    return sorted(results.values(), key=lambda item: item[2], reverse=True)[:80]
+
+
+def save_rss(source, items):
+    rss = ET.Element('rss', version='2.0')
+    channel = ET.SubElement(rss, 'channel')
+    for key, value in (('title', source['name']), ('link', source['url']), ('description', 'Subotica Today monitored source')):
+        ET.SubElement(channel, key).text = value
+    for title, url, dt in items:
+        entry = ET.SubElement(channel, 'item')
+        for key, value in (('title', title), ('link', url), ('guid', url), ('pubDate', format_datetime(dt))):
+            ET.SubElement(entry, key).text = value
+    ET.indent(rss)
+    path = OUT / (source['id'] + '.xml')
+    path.write_bytes(ET.tostring(rss, encoding='utf-8', xml_declaration=True))
+    return path
+
+
+def check(source):
+    sid = source['id']
+    if source.get('mode') == 'existing':
+        url = source.get('feed')
+        if not url:
+            return {'id': sid, 'status': 'existing_feed_missing_url'}
+        try:
+            response = fetch(url)
+            feed = parse_feed(response.content)
+            return {'id': sid, 'status': 'existing_feed_verified' if feed and feed['items'] else 'existing_feed_empty_or_invalid', 'url': response.url, 'feed': feed}
+        except requests.RequestException as exc:
+            return {'id': sid, 'status': 'existing_feed_fetch_failed', 'url': url, 'error': str(exc)[:300]}
+    url = source.get('url')
+    if not url:
+        return {'id': sid, 'status': 'needs_url'}
+    try:
+        response = fetch(url)
+    except requests.exceptions.SSLError as exc:
+        return {'id': sid, 'status': 'ssl_error', 'url': url, 'error': str(exc)[:300]}
+    except requests.exceptions.HTTPError as exc:
+        code = exc.response.status_code if exc.response is not None else None
+        return {'id': sid, 'status': 'http_error', 'http_status': code, 'url': url, 'error': str(exc)[:300]}
+    except requests.RequestException as exc:
+        return {'id': sid, 'status': 'fetch_failed', 'url': url, 'error': str(exc)[:300]}
+    direct = parse_feed(response.content)
+    if direct:
+        return {'id': sid, 'status': 'native_feed_verified' if direct['items'] else 'native_feed_empty', 'url': response.url, 'feed': direct}
+    soup = BeautifulSoup(response.content, 'html.parser')
+    empty = []
+    for feed_url in feed_urls(soup, response.url):
+        try:
+            feed_response = fetch(feed_url)
+            parsed = parse_feed(feed_response.content)
+            if parsed and parsed['items']:
+                return {'id': sid, 'status': 'native_feed_verified', 'url': feed_response.url, 'feed': parsed}
+            if parsed:
+                empty.append({'url': feed_response.url, 'format': parsed['format']})
+        except requests.RequestException:
+            pass
+    items = extract_items(soup, response.url)
+    if items:
+        path = save_rss(source, items)
+        return {'id': sid, 'status': 'generated', 'url': f'feeds/{path.name}', 'items': len(items)}
+    return {'id': sid, 'status': 'needs_custom_parser', 'empty_feeds': empty, 'reason': 'No trustworthy dated articles found; no feed fabricated'}
+
 
 def main():
- for src in SOURCES:
-  if src['mode']=='existing':
-   REPORT.append({'id':src['id'],'status':'existing_feed','url':src['feed']});continue
-  if not src.get('url'):
-   REPORT.append({'id':src['id'],'status':'needs_url'});continue
-  try:
-   r=fetch(src['url']);soup=BeautifulSoup(r.text,'html.parser')
-   feed=None
-   for url in discover(soup,r.url):
-    try:
-     fr=fetch(url)
-     if valid_feed(fr.content):feed=fr.url;break
-    except (requests.RequestException,ValueError):pass
-   if feed:
-    REPORT.append({'id':src['id'],'status':'native_feed_found','url':feed});continue
-   items=candidates(soup,r.url)
-   if items:
-    write_rss(src,items);REPORT.append({'id':src['id'],'status':'generated','count':len(items)})
-   else:REPORT.append({'id':src['id'],'status':'needs_custom_parser','reason':'No dated article links extracted; feed NOT fabricated'})
-  except requests.RequestException as e:REPORT.append({'id':src['id'],'status':'fetch_failed','error':str(e)[:180]})
-  time.sleep(.15)
- (ROOT/'status.json').write_text(json.dumps(REPORT,ensure_ascii=False,indent=2)+'\n')
- print(json.dumps({x['status']:sum(r['status']==x['status'] for r in REPORT) for x in REPORT},ensure_ascii=False))
-if __name__=='__main__':main()
+    for source in SOURCES:
+        try:
+            result = check(source)
+        except Exception as exc:
+            result = {'id': source['id'], 'status': 'unexpected_error', 'error': str(exc)[:300]}
+        REPORT.append(result)
+        print(f"{result['id']}: {result['status']}", flush=True)
+        time.sleep(0.1)
+    (ROOT / 'status.json').write_text(json.dumps(REPORT, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    summary = {status: sum(item['status'] == status for item in REPORT) for status in sorted(set(item['status'] for item in REPORT))}
+    print(json.dumps(summary, ensure_ascii=False), flush=True)
+
+
+if __name__ == '__main__':
+    main()
