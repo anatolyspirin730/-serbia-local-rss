@@ -1,0 +1,162 @@
+[
+  {
+    "id": "subotica-city",
+    "status": "fetch_failed",
+    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificat"
+  },
+  {
+    "id": "subotica-enterprises",
+    "status": "fetch_failed",
+    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificat"
+  },
+  {
+    "id": "subotica-official-gazette",
+    "status": "fetch_failed",
+    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificat"
+  },
+  {
+    "id": "urbanizamsu",
+    "status": "native_feed_found",
+    "url": "https://urbanizamsu.rs/feed/"
+  },
+  {
+    "id": "tourism-subotica",
+    "status": "native_feed_found",
+    "url": "https://visitsubotica.rs/feed/"
+  },
+  {
+    "id": "vodovodsu",
+    "status": "needs_custom_parser",
+    "reason": "No dated article links extracted; feed NOT fabricated"
+  },
+  {
+    "id": "cistoca-su",
+    "status": "fetch_failed",
+    "error": "HTTPSConnectionPool(host='cistoca-su.rs', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='cistoca-su.rs', port=443): Failed to res"
+  },
+  {
+    "id": "suparking",
+    "status": "fetch_failed",
+    "error": "403 Client Error: Forbidden for url: https://suparking.rs/"
+  },
+  {
+    "id": "toplana",
+    "status": "native_feed_found",
+    "url": "https://toplanasubotica.co.rs/feed/"
+  },
+  {
+    "id": "suboticagas",
+    "status": "native_feed_found",
+    "url": "https://suboticagas.co.rs/feed/"
+  },
+  {
+    "id": "sutrans",
+    "status": "fetch_failed",
+    "error": "HTTPSConnectionPool(host='sutrans.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate ver"
+  },
+  {
+    "id": "palic-ludas",
+    "status": "needs_custom_parser",
+    "reason": "No dated article links extracted; feed NOT fabricated"
+  },
+  {
+    "id": "park-palic",
+    "status": "native_feed_found",
+    "url": "https://park-palic.rs/feed/"
+  },
+  {
+    "id": "deponija",
+    "status": "fetch_failed",
+    "error": "HTTPSConnectionPool(host='deponija.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate ve"
+  },
+  {
+    "id": "supijace",
+    "status": "fetch_failed",
+    "error": "HTTPSConnectionPool(host='supijace.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='supijace.co.rs', port=443) at 0x7f7ebde"
+  },
+  {
+    "id": "stadion",
+    "status": "fetch_failed",
+    "error": "403 Client Error: Forbidden for url: https://jkp-stadion.rs/"
+  },
+  {
+    "id": "pogrebno",
+    "status": "needs_custom_parser",
+    "reason": "No dated article links extracted; feed NOT fabricated"
+  },
+  {
+    "id": "dimnicar",
+    "status": "native_feed_found",
+    "url": "https://dimnicar.co.rs/index.php?format=feed&type=rss"
+  },
+  {
+    "id": "subotica-com",
+    "status": "existing_feed",
+    "url": "https://anatolyspirin730.github.io/-serbia-local-rss/feeds/subotica.xml"
+  },
+  {
+    "id": "subotica-info",
+    "status": "fetch_failed",
+    "error": "403 Client Error: Forbidden for url: https://www.subotica.info/"
+  },
+  {
+    "id": "maglocistac-subotica",
+    "status": "fetch_failed",
+    "error": "403 Client Error: Forbidden for url: https://www.maglocistac.rs/"
+  },
+  {
+    "id": "suboticke",
+    "status": "existing_feed",
+    "url": "https://anatolyspirin730.github.io/-serbia-local-rss/feeds/suboticke-vesti.xml"
+  },
+  {
+    "id": "pannonrtv",
+    "status": "fetch_failed",
+    "error": "403 Client Error: Forbidden for url: https://pannonrtv.com/"
+  },
+  {
+    "id": "magyarszo-szabadka",
+    "status": "needs_custom_parser",
+    "reason": "No dated article links extracted; feed NOT fabricated"
+  },
+  {
+    "id": "rtv-subotica",
+    "status": "needs_custom_parser",
+    "reason": "No dated article links extracted; feed NOT fabricated"
+  },
+  {
+    "id": "dnevnik-subotica",
+    "status": "fetch_failed",
+    "error": "403 Client Error: Forbidden for url: https://www.dnevnik.rs/"
+  },
+  {
+    "id": "magyarszo-tag",
+    "status": "needs_custom_parser",
+    "reason": "No dated article links extracted; feed NOT fabricated"
+  },
+  {
+    "id": "maglocistac-all",
+    "status": "fetch_failed",
+    "error": "403 Client Error: Forbidden for url: https://www.maglocistac.rs/"
+  },
+  {
+    "id": "palic-zoo",
+    "status": "needs_url"
+  },
+  {
+    "id": "palic-aquapark",
+    "status": "needs_url"
+  },
+  {
+    "id": "palic-film",
+    "status": "needs_url"
+  },
+  {
+    "id": "subotica-culture",
+    "status": "needs_url"
+  },
+  {
+    "id": "electricity-outages",
+    "status": "needs_url"
+  }
+]
