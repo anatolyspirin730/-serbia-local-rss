@@ -1,0 +1,69 @@
+[
+  {
+    "id": "city-news",
+    "label": "Город Суботица — новости",
+    "urls": [
+      "https://subotica.ls.gov.rs/",
+      "http://subotica.rs/"
+    ],
+    "keywords": []
+  },
+  {
+    "id": "city-gazette",
+    "label": "Službeni list Subotice",
+    "urls": [
+      "https://subotica.ls.gov.rs/",
+      "http://subotica.rs/"
+    ],
+    "keywords": []
+  },
+  {
+    "id": "cistoca",
+    "label": "JKP Čistoća i zelenilo",
+    "urls": [
+      "https://www.cistoca-su.co.rs/lat/",
+      "https://www.cistoca-su.co.rs/"
+    ],
+    "keywords": []
+  },
+  {
+    "id": "parking",
+    "label": "JKP Parking Subotica",
+    "urls": [
+      "https://suparking.rs/bu/",
+      "https://suparking.rs/"
+    ],
+    "keywords": []
+  },
+  {
+    "id": "electricity",
+    "label": "Elektrodistribucija — отключения Суботица",
+    "urls": [
+      "https://elektrodistribucija.rs/planirana-iskljucenja/planirana-ns",
+      "https://www.elektrodistribucija.rs/"
+    ],
+    "keywords": [
+      "subotica",
+      "суботица",
+      "szabadka"
+    ]
+  },
+  {
+    "id": "subotica-info",
+    "label": "Subotica.info — Arhiva",
+    "urls": [
+      "https://www.subotica.info/arhiva",
+      "https://subotica.info/arhiva"
+    ],
+    "keywords": []
+  },
+  {
+    "id": "maglocistac",
+    "label": "Magločistač — Subotica",
+    "urls": [
+      "https://www.maglocistac.rs/kategorija/subotica",
+      "https://maglocistac.rs/kategorija/subotica"
+    ],
+    "keywords": []
+  }
+]
