@@ -1,0 +1,25 @@
+name: Audit Subotica City Sources
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install requests beautifulsoup4
+      - name: Probe 14 problematic sources
+        run: python audit_city_sources.py
+      - name: Upload diagnostic report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: city-sources-report
+          path: audit-results/city_sources_report.json
+          if-no-files-found: warn
