@@ -5,7 +5,13 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Wed, 21 Oct 2026 13:04:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 09:18:00 +0200</lastBuildDate>
+    <item>
+      <title>Subotica u bojama cvetne jeseni</title>
+      <link>https://www.subotica.com/vesti/subotica-u-bojama-cvetne-jeseni-id55267.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/subotica-u-bojama-cvetne-jeseni-id55267.html</guid>
+      <pubDate>Thu, 22 Oct 2026 09:18:00 +0200</pubDate>
+    </item>
     <item>
       <title>Izbori 2026: Od četvrtka prijave za glasanje van biračkog mesta – objavljeni brojevi telefona</title>
       <link>https://www.subotica.com/vesti/izbori-2026-od-cetvrtka-prijave-za-glasanje-van-birackog-mesta-objavljeni-brojevi-telefona-id55262.html</link>
@@ -143,12 +149,6 @@
       <link>https://www.subotica.com/vesti/rvanje-spartak-osvojio-sedam-medalja-u-kanjizi-id55239.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/rvanje-spartak-osvojio-sedam-medalja-u-kanjizi-id55239.html</guid>
       <pubDate>Mon, 19 Oct 2026 09:01:00 +0200</pubDate>
-    </item>
-    <item>
-      <title>Od srednjovekovne Srbije do ordenja kraljevine: U subotu održan tradicionalni susret kolekcionara i sajam antikviteta</title>
-      <link>https://www.subotica.com/vesti/od-srednjovekovne-srbije-do-ordenja-kraljevine-u-subotu-odrzan-tradicionalni-susret-kolekcionara-i-sajam-antikviteta-id55237.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/od-srednjovekovne-srbije-do-ordenja-kraljevine-u-subotu-odrzan-tradicionalni-susret-kolekcionara-i-sajam-antikviteta-id55237.html</guid>
-      <pubDate>Mon, 19 Oct 2026 08:36:00 +0200</pubDate>
     </item>
   </channel>
 </rss>
