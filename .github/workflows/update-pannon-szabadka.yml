@@ -24,9 +24,18 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add feeds/pannon-szabadka.xml feeds/pannon-szabadka-service.xml
+          # The parser intentionally does not create an empty feed when no articles match.
+          # Stage only files that actually exist, avoiding git pathspec exit code 128.
+          for feed in feeds/pannon-szabadka.xml feeds/pannon-szabadka-service.xml; do
+            if [ -f "$feed" ]; then
+              git add -- "$feed"
+            else
+              echo "NOTICE: $feed does not exist yet (no matching articles); skipping"
+            fi
+          done
           if ! git diff --cached --quiet; then
             git commit -m 'Update Pannon Szabadka RSS feeds'
             git pull --rebase
             git push
           fi
+          echo "Pannon RSS commit step completed successfully"
