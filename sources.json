@@ -1,0 +1,241 @@
+[
+  {
+    "id": "subotica-city",
+    "name": "Город Суботица",
+    "url": "https://www.subotica.rs/",
+    "category": "government",
+    "mode": "discover"
+  },
+  {
+    "id": "subotica-enterprises",
+    "name": "Город — муниципальные предприятия",
+    "url": "https://www.subotica.rs/",
+    "category": "directory",
+    "mode": "discover",
+    "note": "Specific section/tag URL must be verified; homepage used for initial discovery only."
+  },
+  {
+    "id": "subotica-official-gazette",
+    "name": "Службени лист Суботице",
+    "url": "https://www.subotica.rs/",
+    "category": "gazette",
+    "mode": "discover",
+    "note": "Specific section/tag URL must be verified; homepage used for initial discovery only."
+  },
+  {
+    "id": "urbanizamsu",
+    "name": "JP za upravljanje putevima / Urbanizam",
+    "url": "https://urbanizamsu.rs/",
+    "category": "roads",
+    "mode": "discover"
+  },
+  {
+    "id": "tourism-subotica",
+    "name": "Туристическая организация Суботицы",
+    "url": "https://visitsubotica.rs/",
+    "category": "tourism",
+    "mode": "discover"
+  },
+  {
+    "id": "vodovodsu",
+    "name": "JKP Vodovod i kanalizacija",
+    "url": "https://vodovodsu.rs/",
+    "category": "utilities",
+    "mode": "discover"
+  },
+  {
+    "id": "cistoca-su",
+    "name": "JKP Čistoća i zelenilo",
+    "url": "https://cistoca-su.rs/",
+    "category": "utilities",
+    "mode": "discover"
+  },
+  {
+    "id": "suparking",
+    "name": "JKP Parking Subotica",
+    "url": "https://suparking.rs/",
+    "category": "utilities",
+    "mode": "discover"
+  },
+  {
+    "id": "toplana",
+    "name": "JKP Subotička toplana",
+    "url": "https://toplanasubotica.co.rs/",
+    "category": "utilities",
+    "mode": "discover"
+  },
+  {
+    "id": "suboticagas",
+    "name": "JKP Suboticagas",
+    "url": "https://suboticagas.co.rs/",
+    "category": "utilities",
+    "mode": "discover"
+  },
+  {
+    "id": "sutrans",
+    "name": "JP Subotica-trans",
+    "url": "https://sutrans.rs/",
+    "category": "transport",
+    "mode": "discover"
+  },
+  {
+    "id": "palic-ludas",
+    "name": "JP Palić-Ludaš",
+    "url": "https://palic-ludas.rs/",
+    "category": "palic",
+    "mode": "discover"
+  },
+  {
+    "id": "park-palic",
+    "name": "Park Palić",
+    "url": "https://park-palic.rs/",
+    "category": "palic",
+    "mode": "discover"
+  },
+  {
+    "id": "deponija",
+    "name": "Regionalna deponija",
+    "url": "https://deponija.rs/",
+    "category": "utilities",
+    "mode": "discover"
+  },
+  {
+    "id": "supijace",
+    "name": "JKP Subotičke pijace",
+    "url": "https://supijace.co.rs/",
+    "category": "utilities",
+    "mode": "discover"
+  },
+  {
+    "id": "stadion",
+    "name": "JKP Stadion",
+    "url": "https://jkp-stadion.rs/",
+    "category": "utilities",
+    "mode": "discover"
+  },
+  {
+    "id": "pogrebno",
+    "name": "JKP Pogrebno",
+    "url": "https://pogrebno.rs/",
+    "category": "utilities",
+    "mode": "discover"
+  },
+  {
+    "id": "dimnicar",
+    "name": "JKP Dimničar",
+    "url": "https://dimnicar.co.rs/",
+    "category": "utilities",
+    "mode": "discover"
+  },
+  {
+    "id": "subotica-com",
+    "name": "Subotica.com",
+    "url": "https://www.subotica.com/",
+    "category": "media",
+    "mode": "existing",
+    "feed": "https://anatolyspirin730.github.io/-serbia-local-rss/feeds/subotica.xml"
+  },
+  {
+    "id": "subotica-info",
+    "name": "Subotica.info",
+    "url": "https://www.subotica.info/",
+    "category": "media",
+    "mode": "discover"
+  },
+  {
+    "id": "maglocistac-subotica",
+    "name": "Magločistač — Subotica",
+    "url": "https://www.maglocistac.rs/",
+    "category": "media",
+    "mode": "discover",
+    "note": "Specific section/tag URL must be verified; homepage used for initial discovery only."
+  },
+  {
+    "id": "suboticke",
+    "name": "Subotičke vesti",
+    "url": "https://suboticke.rs/",
+    "category": "media",
+    "mode": "existing",
+    "feed": "https://anatolyspirin730.github.io/-serbia-local-rss/feeds/suboticke-vesti.xml"
+  },
+  {
+    "id": "pannonrtv",
+    "name": "Pannon RTV",
+    "url": "https://pannonrtv.com/",
+    "category": "media-hu",
+    "mode": "discover"
+  },
+  {
+    "id": "magyarszo-szabadka",
+    "name": "Magyar Szó — Szabadka",
+    "url": "https://www.magyarszo.rs/",
+    "category": "media-hu",
+    "mode": "discover"
+  },
+  {
+    "id": "rtv-subotica",
+    "name": "RTV Vojvodina — Subotica",
+    "url": "https://www.rtv.rs/",
+    "category": "regional",
+    "mode": "discover",
+    "note": "Specific section/tag URL must be verified; homepage used for initial discovery only."
+  },
+  {
+    "id": "dnevnik-subotica",
+    "name": "Dnevnik — Subotica",
+    "url": "https://www.dnevnik.rs/",
+    "category": "regional",
+    "mode": "discover",
+    "note": "Specific section/tag URL must be verified; homepage used for initial discovery only."
+  },
+  {
+    "id": "magyarszo-tag",
+    "name": "Magyar Szó — Szabadka tag",
+    "url": "https://www.magyarszo.rs/",
+    "category": "regional",
+    "mode": "discover",
+    "note": "Specific section/tag URL must be verified; homepage used for initial discovery only."
+  },
+  {
+    "id": "maglocistac-all",
+    "name": "Magločistač — all",
+    "url": "https://www.maglocistac.rs/",
+    "category": "regional",
+    "mode": "discover"
+  },
+  {
+    "id": "palic-zoo",
+    "name": "Зоопарк Палича",
+    "url": null,
+    "category": "palic",
+    "mode": "discover"
+  },
+  {
+    "id": "palic-aquapark",
+    "name": "Аквапарк Палича",
+    "url": null,
+    "category": "palic",
+    "mode": "discover"
+  },
+  {
+    "id": "palic-film",
+    "name": "Фестиваль европейского кино Палич",
+    "url": null,
+    "category": "palic",
+    "mode": "discover"
+  },
+  {
+    "id": "subotica-culture",
+    "name": "Культурные учреждения Суботицы",
+    "url": null,
+    "category": "culture",
+    "mode": "discover"
+  },
+  {
+    "id": "electricity-outages",
+    "name": "Электроснабжение — отключения",
+    "url": null,
+    "category": "utilities",
+    "mode": "discover"
+  }
+]
