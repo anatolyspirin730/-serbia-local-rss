@@ -1,0 +1,36 @@
+name: Build Subotica Final 3 Specialized RSS
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11,41 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: subotica-special3
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - name: Build three source-specific feeds
+        run: python build_subotica_final3.py
+      - name: Upload diagnostic report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: subotica-special3-report
+          path: audit-results/special3_report.json
+      - name: Commit only verified feeds
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add feeds/special-*.xml 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update three specialized Subotica feeds'
+            git push
+          fi
