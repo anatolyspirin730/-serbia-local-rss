@@ -1,0 +1,25 @@
+name: Inspect Subotica Custom Sources
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install requests beautifulsoup4
+      - name: Inspect HTML and dates
+        run: python inspect_custom_sources.py
+      - name: Upload diagnostic report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: custom-sources-html-diagnostic
+          path: audit-results/custom_sources_html_diagnostic.json
+          if-no-files-found: warn
