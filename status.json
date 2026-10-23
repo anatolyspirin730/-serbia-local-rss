@@ -19,17 +19,21 @@
   },
   {
     "id": "urbanizamsu",
-    "status": "needs_custom_parser",
-    "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated",
-    "next_action": "site-specific parser or official alternate source required"
+    "status": "native_feed_verified",
+    "url": "https://urbanizamsu.rs/feed/",
+    "feed": {
+      "format": "rss",
+      "items": 7
+    }
   },
   {
     "id": "tourism-subotica",
-    "status": "needs_custom_parser",
-    "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated",
-    "next_action": "site-specific parser or official alternate source required"
+    "status": "native_feed_verified",
+    "url": "https://visitsubotica.rs/feed/",
+    "feed": {
+      "format": "rss",
+      "items": 10
+    }
   },
   {
     "id": "vodovodsu",
@@ -53,9 +57,12 @@
   },
   {
     "id": "toplana",
-    "status": "fetch_failed",
-    "url": "https://toplanasubotica.co.rs/",
-    "error": "HTTPSConnectionPool(host='toplanasubotica.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='toplanasubotica.co.rs', port=443) at 0x7fefff0db690>, 'Connection to toplanasubotica.co.rs timed out. (connect timeout=8)'))"
+    "status": "native_feed_verified",
+    "url": "https://toplanasubotica.co.rs/feed/",
+    "feed": {
+      "format": "rss",
+      "items": 10
+    }
   },
   {
     "id": "suboticagas",
@@ -81,10 +88,12 @@
   },
   {
     "id": "park-palic",
-    "status": "needs_custom_parser",
-    "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated",
-    "next_action": "site-specific parser or official alternate source required"
+    "status": "native_feed_verified",
+    "url": "https://park-palic.rs/feed/",
+    "feed": {
+      "format": "rss",
+      "items": 10
+    }
   },
   {
     "id": "deponija",
@@ -117,10 +126,12 @@
   },
   {
     "id": "dimnicar",
-    "status": "needs_custom_parser",
-    "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated",
-    "next_action": "site-specific parser or official alternate source required"
+    "status": "native_feed_verified",
+    "url": "https://dimnicar.co.rs/index.php?format=feed&type=rss",
+    "feed": {
+      "format": "rss",
+      "items": 4
+    }
   },
   {
     "id": "subotica-com",
@@ -166,10 +177,10 @@
   },
   {
     "id": "magyarszo-szabadka",
-    "status": "http_error",
-    "http_status": 500,
-    "url": "https://www.magyarszo.rs/",
-    "error": "500 Server Error: Internal Server Error for url: https://www.magyarszo.rs/"
+    "status": "needs_custom_parser",
+    "empty_feeds": [],
+    "reason": "No trustworthy dated articles found; no feed fabricated",
+    "next_action": "site-specific parser or official alternate source required"
   },
   {
     "id": "rtv-subotica",
