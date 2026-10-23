@@ -57,21 +57,15 @@
   },
   {
     "id": "toplana",
-    "status": "native_feed_verified",
-    "url": "https://toplanasubotica.co.rs/feed/",
-    "feed": {
-      "format": "rss",
-      "items": 10
-    }
+    "status": "fetch_failed",
+    "url": "https://toplanasubotica.co.rs/",
+    "error": "HTTPSConnectionPool(host='toplanasubotica.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='toplanasubotica.co.rs', port=443) at 0x7f9c26987c90>, 'Connection to toplanasubotica.co.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "suboticagas",
-    "status": "native_feed_verified",
-    "url": "https://suboticagas.co.rs/feed/",
-    "feed": {
-      "format": "rss",
-      "items": 8
-    }
+    "status": "fetch_failed",
+    "url": "https://suboticagas.co.rs/",
+    "error": "HTTPSConnectionPool(host='suboticagas.co.rs', port=443): Read timed out. (read timeout=20)"
   },
   {
     "id": "sutrans",
