@@ -5,7 +5,19 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Fri, 23 Oct 2026 10:11:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 13:10:00 +0200</lastBuildDate>
+    <item>
+      <title>Pravo glasa ima nešto više od 123 hiljade Subotičana, glasanje na 102 biračka mesta</title>
+      <link>https://www.subotica.com/vesti/pravo-glasa-ima-nesto-vise-od-123-hiljade-suboticana-glasanje-na-102-biracka-mesta-id55279.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/pravo-glasa-ima-nesto-vise-od-123-hiljade-suboticana-glasanje-na-102-biracka-mesta-id55279.html</guid>
+      <pubDate>Fri, 23 Oct 2026 13:10:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>Kada dečje ruke ožive tradiciju: Priča koja već 13 godina povezuje prošlost i budućnost</title>
+      <link>https://www.subotica.com/vesti/kada-decje-ruke-ozive-tradiciju-prica-koja-vec-13-godina-povezuje-proslost-i-buducnost-id55263.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/kada-decje-ruke-ozive-tradiciju-prica-koja-vec-13-godina-povezuje-proslost-i-buducnost-id55263.html</guid>
+      <pubDate>Fri, 23 Oct 2026 09:26:00 +0200</pubDate>
+    </item>
     <item>
       <title>Košarka: Šampion protiv Partizana pred punom Halom sportova</title>
       <link>https://www.subotica.com/vesti/kosarka-sampion-protiv-partizana-pred-punom-halom-sportova-id55271.html</link>
@@ -137,18 +149,6 @@
       <link>https://www.subotica.com/vesti/fudbal-z-spartak-porazen-od-crvene-zvezde-4-1-id55249.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/fudbal-z-spartak-porazen-od-crvene-zvezde-4-1-id55249.html</guid>
       <pubDate>Tue, 20 Oct 2026 08:35:00 +0200</pubDate>
-    </item>
-    <item>
-      <title>Džudo: Spartak osvojio sedam medalja na tri takmičenja</title>
-      <link>https://www.subotica.com/vesti/dzudo-spartak-osvojio-sedam-medalja-na-tri-takmicenja-id55247.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/dzudo-spartak-osvojio-sedam-medalja-na-tri-takmicenja-id55247.html</guid>
-      <pubDate>Tue, 20 Oct 2026 08:25:00 +0200</pubDate>
-    </item>
-    <item>
-      <title>Isključenja struje za sredu (21. oktobar)</title>
-      <link>https://www.subotica.com/vesti/iskljucenja-struje-za-sredu-21-oktobar-id55251.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/iskljucenja-struje-za-sredu-21-oktobar-id55251.html</guid>
-      <pubDate>Tue, 20 Oct 2026 09:18:00 +0200</pubDate>
     </item>
   </channel>
 </rss>
