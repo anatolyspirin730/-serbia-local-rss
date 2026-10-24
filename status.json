@@ -59,7 +59,7 @@
     "id": "toplana",
     "status": "fetch_failed",
     "url": "https://toplanasubotica.co.rs/",
-    "error": "HTTPSConnectionPool(host='toplanasubotica.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='toplanasubotica.co.rs', port=443) at 0x7fcc7e8a88d0>, 'Connection to toplanasubotica.co.rs timed out. (connect timeout=8)'))"
+    "error": "HTTPSConnectionPool(host='toplanasubotica.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='toplanasubotica.co.rs', port=443) at 0x7f62bf29d7d0>, 'Connection to toplanasubotica.co.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "suboticagas",
@@ -174,10 +174,10 @@
   },
   {
     "id": "magyarszo-szabadka",
-    "status": "http_error",
-    "http_status": 500,
-    "url": "https://www.magyarszo.rs/",
-    "error": "500 Server Error: Internal Server Error for url: https://www.magyarszo.rs/"
+    "status": "needs_custom_parser",
+    "empty_feeds": [],
+    "reason": "No trustworthy dated articles found; no feed fabricated",
+    "next_action": "site-specific parser or official alternate source required"
   },
   {
     "id": "rtv-subotica",
