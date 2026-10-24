@@ -112,9 +112,10 @@
   },
   {
     "id": "stadion",
-    "status": "fetch_failed",
+    "status": "http_error",
+    "http_status": 403,
     "url": "https://jkp-stadion.rs/",
-    "error": "HTTPSConnectionPool(host='jkp-stadion.rs', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='jkp-stadion.rs', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+    "error": "403 Client Error: Forbidden for url: https://jkp-stadion.rs/"
   },
   {
     "id": "pogrebno",
