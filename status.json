@@ -57,9 +57,12 @@
   },
   {
     "id": "toplana",
-    "status": "fetch_failed",
-    "url": "https://toplanasubotica.co.rs/",
-    "error": "HTTPSConnectionPool(host='toplanasubotica.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='toplanasubotica.co.rs', port=443) at 0x7fb28a061510>, 'Connection to toplanasubotica.co.rs timed out. (connect timeout=8)'))"
+    "status": "native_feed_verified",
+    "url": "https://toplanasubotica.co.rs/feed/",
+    "feed": {
+      "format": "rss",
+      "items": 10
+    }
   },
   {
     "id": "suboticagas",
@@ -109,10 +112,9 @@
   },
   {
     "id": "stadion",
-    "status": "http_error",
-    "http_status": 403,
+    "status": "fetch_failed",
     "url": "https://jkp-stadion.rs/",
-    "error": "403 Client Error: Forbidden for url: https://jkp-stadion.rs/"
+    "error": "HTTPSConnectionPool(host='jkp-stadion.rs', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='jkp-stadion.rs', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
   },
   {
     "id": "pogrebno",
