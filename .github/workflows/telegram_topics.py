@@ -67,11 +67,10 @@ async def main():
 
     os.makedirs("feeds", exist_ok=True)
 
-with open("feeds/telegram_topics.json", "w", encoding="utf-8") as file:
+    with open("feeds/telegram_topics.json", "w", encoding="utf-8") as file:
         json.dump(results, file, ensure_ascii=False, indent=2)
 
     print(f"Всего собрано: {len(results)} сообщений")
-
 
 if __name__ == "__main__":
     asyncio.run(main())
