@@ -5,12 +5,18 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Sun, 25 Oct 2026 15:45:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 16:00:00 +0100</lastBuildDate>
     <item>
       <title>Izborni dan je završen - sledi prebrojavanje glasova (Izlaznost u Subotici 62,74 odsto)</title>
       <link>https://www.subotica.com/vesti/izborni-dan-je-zavrsen-sledi-prebrojavanje-glasova-izlaznost-u-subotici-62-74-odsto-id55285.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/izborni-dan-je-zavrsen-sledi-prebrojavanje-glasova-izlaznost-u-subotici-62-74-odsto-id55285.html</guid>
       <pubDate>Sun, 25 Oct 2026 06:59:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Isključenja struje za ponedeljak (26. oktobar)</title>
+      <link>https://www.subotica.com/vesti/iskljucenja-struje-za-ponedeljak-26-oktobar-id55280.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/iskljucenja-struje-za-ponedeljak-26-oktobar-id55280.html</guid>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Radno vreme ambulanti sledeće nedelje (26-30. oktobar)</title>
@@ -143,12 +149,6 @@
       <link>https://www.subotica.com/vesti/izbori-2026-od-cetvrtka-prijave-za-glasanje-van-birackog-mesta-objavljeni-brojevi-telefona-id55262.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/izbori-2026-od-cetvrtka-prijave-za-glasanje-van-birackog-mesta-objavljeni-brojevi-telefona-id55262.html</guid>
       <pubDate>Wed, 21 Oct 2026 13:04:00 +0200</pubDate>
-    </item>
-    <item>
-      <title>Završava se obnova „Šumice“, u planu novi vrtići i proširenje postojećih</title>
-      <link>https://www.subotica.com/vesti/zavrsava-se-obnova-sumice-u-planu-novi-vrtici-i-prosirenje-postojecih-id55261.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/zavrsava-se-obnova-sumice-u-planu-novi-vrtici-i-prosirenje-postojecih-id55261.html</guid>
-      <pubDate>Wed, 21 Oct 2026 12:45:00 +0200</pubDate>
     </item>
   </channel>
 </rss>
