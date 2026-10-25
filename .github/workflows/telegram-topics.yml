@@ -30,4 +30,4 @@ jobs:
           TG_API_ID: ${{ secrets.TG_API_ID }}
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
           TG_SESSION: ${{ secrets.TG_SESSION }}
-        run: python telegram_topics.py
+        run: python .github/workflows/telegram_topics.py
