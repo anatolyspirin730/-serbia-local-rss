@@ -65,7 +65,9 @@ async def main():
 
     results.sort(key=lambda item: item["published_at"])
 
-    with open("telegram_topics.json", "w", encoding="utf-8") as file:
+    os.makedirs("feeds", exist_ok=True)
+
+with open("feeds/telegram_topics.json", "w", encoding="utf-8") as file:
         json.dump(results, file, ensure_ascii=False, indent=2)
 
     print(f"Всего собрано: {len(results)} сообщений")
