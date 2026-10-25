@@ -19,7 +19,7 @@ async def main():
     session = os.environ["TG_SESSION"].strip()
 
     # Тест: собираем сообщения за последние 24 часа
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
+    cutoff = datetime.now(timezone.utc) - timedelta(days=30)
 
     results = []
 
