@@ -57,12 +57,9 @@
   },
   {
     "id": "toplana",
-    "status": "native_feed_verified",
-    "url": "https://toplanasubotica.co.rs/feed/",
-    "feed": {
-      "format": "rss",
-      "items": 10
-    }
+    "status": "fetch_failed",
+    "url": "https://toplanasubotica.co.rs/",
+    "error": "HTTPSConnectionPool(host='toplanasubotica.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='toplanasubotica.co.rs', port=443) at 0x7fb8e4dccbd0>, 'Connection to toplanasubotica.co.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "suboticagas",
@@ -103,9 +100,12 @@
   },
   {
     "id": "supijace",
-    "status": "fetch_failed",
-    "url": "https://supijace.co.rs/",
-    "error": "HTTPSConnectionPool(host='supijace.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='supijace.co.rs', port=443) at 0x7f4c10796010>, 'Connection to supijace.co.rs timed out. (connect timeout=8)'))"
+    "status": "native_feed_verified",
+    "url": "https://supijace.co.rs/feed/",
+    "feed": {
+      "format": "rss",
+      "items": 10
+    }
   },
   {
     "id": "stadion",
@@ -174,10 +174,12 @@
   },
   {
     "id": "magyarszo-szabadka",
-    "status": "needs_custom_parser",
-    "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated",
-    "next_action": "site-specific parser or official alternate source required"
+    "status": "native_feed_verified",
+    "url": "https://www.magyarszo.rs/rss.xml",
+    "feed": {
+      "format": "rss",
+      "items": 50
+    }
   },
   {
     "id": "rtv-subotica",
