@@ -5,7 +5,13 @@
     <link>https://suboticke.rs/tema/srbija/vesti/</link>
     <description>Новости: Subotičke — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Wed, 28 Oct 2026 11:37:27 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 13:29:45 +0100</lastBuildDate>
+    <item>
+      <title>Četiri ulice na Paliću u četvrtak bez vode od 8 do 13 časova</title>
+      <link>https://suboticke.rs/palic-bez-vode-29-oktobar-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/palic-bez-vode-29-oktobar-2026/</guid>
+      <pubDate>Wed, 28 Oct 2026 13:29:45 +0100</pubDate>
+    </item>
     <item>
       <title>Tužilaštvo naložilo proveru prijave zbog nepotpisanog zapisnika na biračkom mestu 57</title>
       <link>https://suboticke.rs/tuzilastvo-ponavljanje-glasanja-nosa-subotica-bm-57/</link>
@@ -203,18 +209,6 @@
       <link>https://suboticke.rs/cvetna-tacka-subotica-350-sadnica/</link>
       <guid isPermaLink="true">https://suboticke.rs/cvetna-tacka-subotica-350-sadnica/</guid>
       <pubDate>Sat, 17 Oct 2026 11:00:41 +0200</pubDate>
-    </item>
-    <item>
-      <title>Vreme u Subotici za vikend: Oblačna subota, toplija nedelja</title>
-      <link>https://suboticke.rs/vremenska-prognoza-subotica-vikend-17-18-oktobar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/vremenska-prognoza-subotica-vikend-17-18-oktobar-2026/</guid>
-      <pubDate>Sat, 17 Oct 2026 09:07:59 +0200</pubDate>
-    </item>
-    <item>
-      <title>Danas u Subotici: Počinje vašar cveća, otvara se izložba o Jožefu Kišu, na programu predstava i filmske projekcije</title>
-      <link>https://suboticke.rs/desavanja-subotica-28-oktobar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/desavanja-subotica-28-oktobar-2026/</guid>
-      <pubDate>Wed, 28 Oct 2026 09:25:50 +0100</pubDate>
     </item>
   </channel>
 </rss>
