@@ -5,7 +5,13 @@
     <link>https://suboticke.rs/tema/srbija/vesti/</link>
     <description>Новости: Subotičke — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Tue, 27 Oct 2026 15:44:41 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 09:11:00 +0100</lastBuildDate>
+    <item>
+      <title>Servisne informacije za 28. oktobar: Isključenja struje, ispiranje vodovodne mreže i izmene u prevozu</title>
+      <link>https://suboticke.rs/servisne-informacije-subotica-28-oktobar-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/servisne-informacije-subotica-28-oktobar-2026/</guid>
+      <pubDate>Wed, 28 Oct 2026 09:11:00 +0100</pubDate>
+    </item>
     <item>
       <title>Bačka i Đurđin ubedljivi, Lokomotiva i Preporod poravnati na vrhu</title>
       <link>https://suboticke.rs/nize-fudbalske-lige-subotica-rezultati-24-25-oktobar-2026/</link>
@@ -205,22 +211,10 @@
       <pubDate>Fri, 16 Oct 2026 17:42:17 +0200</pubDate>
     </item>
     <item>
-      <title>Ispiranje vodovodne mreže u osam naselja od 20. oktobra: Mogući slabiji pritisak i zamućenje vode</title>
-      <link>https://suboticke.rs/ispiranje-vodovodne-mreze-raspored-oktobar-novembar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/ispiranje-vodovodne-mreze-raspored-oktobar-novembar-2026/</guid>
-      <pubDate>Fri, 16 Oct 2026 17:27:51 +0200</pubDate>
-    </item>
-    <item>
-      <title>„Odjeci suživota“: Priče o Subotici koje se slušaju u šetnji gradom</title>
-      <link>https://suboticke.rs/odjeci-suzivota-zvucne-setnje-subotica/</link>
-      <guid isPermaLink="true">https://suboticke.rs/odjeci-suzivota-zvucne-setnje-subotica/</guid>
-      <pubDate>Tue, 27 Oct 2026 13:31:42 +0100</pubDate>
-    </item>
-    <item>
-      <title>Čovek koji je preoblikovao Bačku: Izložba o Jožefu Kišu u Gradskom muzeju</title>
-      <link>https://suboticke.rs/jozef-kis-izlozba-gradski-muzej-subotica/</link>
-      <guid isPermaLink="true">https://suboticke.rs/jozef-kis-izlozba-gradski-muzej-subotica/</guid>
-      <pubDate>Tue, 27 Oct 2026 13:13:09 +0100</pubDate>
+      <title>Spartak u četvrtfinalu Kupa Srbije: Laki Star zaustavljen u tri seta</title>
+      <link>https://suboticke.rs/spartak-laki-star-3-0-kup-srbije-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/spartak-laki-star-3-0-kup-srbije-2026/</guid>
+      <pubDate>Tue, 27 Oct 2026 21:23:18 +0100</pubDate>
     </item>
   </channel>
 </rss>
