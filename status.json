@@ -66,12 +66,9 @@
   },
   {
     "id": "suboticagas",
-    "status": "native_feed_verified",
-    "url": "https://suboticagas.co.rs/feed/",
-    "feed": {
-      "format": "rss",
-      "items": 8
-    }
+    "status": "fetch_failed",
+    "url": "https://suboticagas.co.rs/",
+    "error": "HTTPSConnectionPool(host='suboticagas.co.rs', port=443): Read timed out. (read timeout=20)"
   },
   {
     "id": "sutrans",
