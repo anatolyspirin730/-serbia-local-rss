@@ -5,7 +5,19 @@
     <link>https://suboticke.rs/tema/srbija/vesti/</link>
     <description>Новости: Subotičke — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Wed, 28 Oct 2026 09:11:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 11:37:27 +0100</lastBuildDate>
+    <item>
+      <title>Tužilaštvo naložilo proveru prijave zbog nepotpisanog zapisnika na biračkom mestu 57</title>
+      <link>https://suboticke.rs/tuzilastvo-ponavljanje-glasanja-nosa-subotica-bm-57/</link>
+      <guid isPermaLink="true">https://suboticke.rs/tuzilastvo-ponavljanje-glasanja-nosa-subotica-bm-57/</guid>
+      <pubDate>Wed, 28 Oct 2026 11:37:27 +0100</pubDate>
+    </item>
+    <item>
+      <title>Od trotoara do bolnice: Kako građani mogu da utiču na rešavanje problema u Subotici</title>
+      <link>https://suboticke.rs/lokalni-dijalog-subotica-problemi-gradjana/</link>
+      <guid isPermaLink="true">https://suboticke.rs/lokalni-dijalog-subotica-problemi-gradjana/</guid>
+      <pubDate>Wed, 28 Oct 2026 10:41:46 +0100</pubDate>
+    </item>
     <item>
       <title>Servisne informacije za 28. oktobar: Isključenja struje, ispiranje vodovodne mreže i izmene u prevozu</title>
       <link>https://suboticke.rs/servisne-informacije-subotica-28-oktobar-2026/</link>
@@ -199,22 +211,10 @@
       <pubDate>Sat, 17 Oct 2026 09:07:59 +0200</pubDate>
     </item>
     <item>
-      <title>Pošta 1 ostaje u Prvomajskoj, logistički centar i deo službi preseljeni na Čantavirski put</title>
-      <link>https://suboticke.rs/posta-1-subotica-ostaje-prvomajska-preseljenje-sluzbi/</link>
-      <guid isPermaLink="true">https://suboticke.rs/posta-1-subotica-ostaje-prvomajska-preseljenje-sluzbi/</guid>
-      <pubDate>Fri, 16 Oct 2026 18:15:50 +0200</pubDate>
-    </item>
-    <item>
-      <title>Obustava saobraćaja u Ulici Prvog ustanka u ponedeljak, 19. oktobra</title>
-      <link>https://suboticke.rs/obustava-saobracaja-prvog-ustanka-19-oktobar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/obustava-saobracaja-prvog-ustanka-19-oktobar-2026/</guid>
-      <pubDate>Fri, 16 Oct 2026 17:42:17 +0200</pubDate>
-    </item>
-    <item>
-      <title>Spartak u četvrtfinalu Kupa Srbije: Laki Star zaustavljen u tri seta</title>
-      <link>https://suboticke.rs/spartak-laki-star-3-0-kup-srbije-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/spartak-laki-star-3-0-kup-srbije-2026/</guid>
-      <pubDate>Tue, 27 Oct 2026 21:23:18 +0100</pubDate>
+      <title>Danas u Subotici: Počinje vašar cveća, otvara se izložba o Jožefu Kišu, na programu predstava i filmske projekcije</title>
+      <link>https://suboticke.rs/desavanja-subotica-28-oktobar-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/desavanja-subotica-28-oktobar-2026/</guid>
+      <pubDate>Wed, 28 Oct 2026 09:25:50 +0100</pubDate>
     </item>
   </channel>
 </rss>
