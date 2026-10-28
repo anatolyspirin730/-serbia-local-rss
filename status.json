@@ -105,14 +105,13 @@
     "id": "supijace",
     "status": "fetch_failed",
     "url": "https://supijace.co.rs/",
-    "error": "HTTPSConnectionPool(host='supijace.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='supijace.co.rs', port=443) at 0x7fa6e6991610>, 'Connection to supijace.co.rs timed out. (connect timeout=8)'))"
+    "error": "HTTPSConnectionPool(host='supijace.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='supijace.co.rs', port=443) at 0x7fa6ac560e10>, 'Connection to supijace.co.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "stadion",
-    "status": "http_error",
-    "http_status": 403,
+    "status": "fetch_failed",
     "url": "https://jkp-stadion.rs/",
-    "error": "403 Client Error: Forbidden for url: https://jkp-stadion.rs/"
+    "error": "HTTPSConnectionPool(host='jkp-stadion.rs', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='jkp-stadion.rs', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
   },
   {
     "id": "pogrebno",
