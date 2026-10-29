@@ -5,7 +5,13 @@
     <link>https://suboticke.rs/tema/srbija/vesti/</link>
     <description>Новости: Subotičke — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Wed, 28 Oct 2026 13:29:45 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 09:26:49 +0100</lastBuildDate>
+    <item>
+      <title>Servisne informacije za 29. oktobar: Isključenja struje, deo Palića bez vode i izmene u prevozu</title>
+      <link>https://suboticke.rs/servisne-informacije-subotica-29-oktobar-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/servisne-informacije-subotica-29-oktobar-2026/</guid>
+      <pubDate>Thu, 29 Oct 2026 09:26:49 +0100</pubDate>
+    </item>
     <item>
       <title>Četiri ulice na Paliću u četvrtak bez vode od 8 do 13 časova</title>
       <link>https://suboticke.rs/palic-bez-vode-29-oktobar-2026/</link>
@@ -205,10 +211,16 @@
       <pubDate>Sat, 17 Oct 2026 19:18:30 +0200</pubDate>
     </item>
     <item>
-      <title>„Cvetna tačka“ u Subotici: Uz podršku 37 donatora sadi se 350 sadnica</title>
-      <link>https://suboticke.rs/cvetna-tacka-subotica-350-sadnica/</link>
-      <guid isPermaLink="true">https://suboticke.rs/cvetna-tacka-subotica-350-sadnica/</guid>
-      <pubDate>Sat, 17 Oct 2026 11:00:41 +0200</pubDate>
+      <title>Spartak slavio u Francuskoj: Subotičani savladali Šole u Ligi šampiona</title>
+      <link>https://suboticke.rs/spartak-sole-liga-sampiona-pobeda-francuska/</link>
+      <guid isPermaLink="true">https://suboticke.rs/spartak-sole-liga-sampiona-pobeda-francuska/</guid>
+      <pubDate>Wed, 28 Oct 2026 22:27:16 +0100</pubDate>
+    </item>
+    <item>
+      <title>Spartak ispao iz Kupa Srbije posle penala: U Priboju šansu dobili mladi iz klupske škole</title>
+      <link>https://suboticke.rs/spartak-ispao-kup-srbije-fap-penali/</link>
+      <guid isPermaLink="true">https://suboticke.rs/spartak-ispao-kup-srbije-fap-penali/</guid>
+      <pubDate>Wed, 28 Oct 2026 21:16:08 +0100</pubDate>
     </item>
   </channel>
 </rss>
