@@ -5,7 +5,19 @@
     <link>https://suboticke.rs/tema/srbija/vesti/</link>
     <description>Новости: Subotičke — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Thu, 29 Oct 2026 09:26:49 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 10:29:08 +0100</lastBuildDate>
+    <item>
+      <title>Đaci izmešteni iz OŠ „Ivan Milutinović“, danas sastanci o mogućem prelasku na onlajn nastavu</title>
+      <link>https://suboticke.rs/os-ivan-milutinovic-subotica-izmestanje-nastave-bezbednost/</link>
+      <guid isPermaLink="true">https://suboticke.rs/os-ivan-milutinovic-subotica-izmestanje-nastave-bezbednost/</guid>
+      <pubDate>Thu, 29 Oct 2026 10:29:08 +0100</pubDate>
+    </item>
+    <item>
+      <title>U Subotici se glasanje ponavlja samo na jednom biračkom mestu – u nedelju ponovo na biralište u Hajdukovu</title>
+      <link>https://suboticke.rs/ponavljanje-izbora-subotica-hajdukovo-1-novembar-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/ponavljanje-izbora-subotica-hajdukovo-1-novembar-2026/</guid>
+      <pubDate>Thu, 29 Oct 2026 10:00:47 +0100</pubDate>
+    </item>
     <item>
       <title>Servisne informacije za 29. oktobar: Isključenja struje, deo Palića bez vode i izmene u prevozu</title>
       <link>https://suboticke.rs/servisne-informacije-subotica-29-oktobar-2026/</link>
@@ -199,28 +211,10 @@
       <pubDate>Sun, 18 Oct 2026 09:01:48 +0200</pubDate>
     </item>
     <item>
-      <title>Kuća izgorela u požaru u Donjem Tavankutu</title>
-      <link>https://suboticke.rs/pozar-donji-tavankut-izgorela-kuca/</link>
-      <guid isPermaLink="true">https://suboticke.rs/pozar-donji-tavankut-izgorela-kuca/</guid>
-      <pubDate>Sat, 17 Oct 2026 19:51:27 +0200</pubDate>
-    </item>
-    <item>
-      <title>Šlem od pet kilograma i lekcija o viteštvu: Srednji vek u subotičkom FortRestu</title>
-      <link>https://suboticke.rs/srednjovekovni-festival-fortrest-vitezovi-subotica/</link>
-      <guid isPermaLink="true">https://suboticke.rs/srednjovekovni-festival-fortrest-vitezovi-subotica/</guid>
-      <pubDate>Sat, 17 Oct 2026 19:18:30 +0200</pubDate>
-    </item>
-    <item>
-      <title>Spartak slavio u Francuskoj: Subotičani savladali Šole u Ligi šampiona</title>
-      <link>https://suboticke.rs/spartak-sole-liga-sampiona-pobeda-francuska/</link>
-      <guid isPermaLink="true">https://suboticke.rs/spartak-sole-liga-sampiona-pobeda-francuska/</guid>
-      <pubDate>Wed, 28 Oct 2026 22:27:16 +0100</pubDate>
-    </item>
-    <item>
-      <title>Spartak ispao iz Kupa Srbije posle penala: U Priboju šansu dobili mladi iz klupske škole</title>
-      <link>https://suboticke.rs/spartak-ispao-kup-srbije-fap-penali/</link>
-      <guid isPermaLink="true">https://suboticke.rs/spartak-ispao-kup-srbije-fap-penali/</guid>
-      <pubDate>Wed, 28 Oct 2026 21:16:08 +0100</pubDate>
+      <title>Danas u Subotici: Zafranović u „Lifki“, indijski film na Paliću i večernja svirka</title>
+      <link>https://suboticke.rs/desavanja-subotica-29-oktobar-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/desavanja-subotica-29-oktobar-2026/</guid>
+      <pubDate>Thu, 29 Oct 2026 09:45:37 +0100</pubDate>
     </item>
   </channel>
 </rss>
