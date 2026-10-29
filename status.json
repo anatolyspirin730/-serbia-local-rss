@@ -57,12 +57,9 @@
   },
   {
     "id": "toplana",
-    "status": "native_feed_verified",
-    "url": "https://toplanasubotica.co.rs/feed/",
-    "feed": {
-      "format": "rss",
-      "items": 10
-    }
+    "status": "fetch_failed",
+    "url": "https://toplanasubotica.co.rs/",
+    "error": "HTTPSConnectionPool(host='toplanasubotica.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='toplanasubotica.co.rs', port=443) at 0x7f19958e5d10>, 'Connection to toplanasubotica.co.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "suboticagas",
@@ -99,13 +96,16 @@
     "id": "deponija",
     "status": "ssl_error",
     "url": "https://deponija.rs/",
-    "error": "HTTPSConnectionPool(host='deponija.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'deponija.rs'. (_ssl.c:1016)\")))"
+    "error": "HTTPSConnectionPool(host='deponija.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1016)')))"
   },
   {
     "id": "supijace",
-    "status": "fetch_failed",
-    "url": "https://supijace.co.rs/",
-    "error": "HTTPSConnectionPool(host='supijace.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='supijace.co.rs', port=443) at 0x7f814a20b850>, 'Connection to supijace.co.rs timed out. (connect timeout=8)'))"
+    "status": "native_feed_verified",
+    "url": "https://supijace.co.rs/feed/",
+    "feed": {
+      "format": "rss",
+      "items": 10
+    }
   },
   {
     "id": "stadion",
