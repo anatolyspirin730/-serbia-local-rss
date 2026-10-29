@@ -105,7 +105,7 @@
     "id": "supijace",
     "status": "fetch_failed",
     "url": "https://supijace.co.rs/",
-    "error": "HTTPSConnectionPool(host='supijace.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='supijace.co.rs', port=443) at 0x7efe43c59110>, 'Connection to supijace.co.rs timed out. (connect timeout=8)'))"
+    "error": "HTTPSConnectionPool(host='supijace.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='supijace.co.rs', port=443) at 0x7fbcfcfc9ed0>, 'Connection to supijace.co.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "stadion",
@@ -165,10 +165,10 @@
   {
     "id": "pannonrtv",
     "status": "native_feed_verified",
-    "url": "https://pannonrtv.com/feed",
+    "url": "https://pannonrtv.com/rss.xml",
     "feed": {
       "format": "rss",
-      "items": 50
+      "items": 10
     },
     "discovery": "direct_feed_probe"
   },
