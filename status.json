@@ -19,9 +19,12 @@
   },
   {
     "id": "urbanizamsu",
-    "status": "fetch_failed",
-    "url": "https://urbanizamsu.rs/",
-    "error": "HTTPSConnectionPool(host='urbanizamsu.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='urbanizamsu.rs', port=443) at 0x7f337510be50>, 'Connection to urbanizamsu.rs timed out. (connect timeout=8)'))"
+    "status": "native_feed_verified",
+    "url": "https://urbanizamsu.rs/feed/",
+    "feed": {
+      "format": "rss",
+      "items": 7
+    }
   },
   {
     "id": "tourism-subotica",
