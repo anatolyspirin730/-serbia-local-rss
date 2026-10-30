@@ -5,7 +5,19 @@
     <link>https://suboticke.rs/tema/srbija/vesti/</link>
     <description>Новости: Subotičke — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Fri, 30 Oct 2026 12:46:55 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 14:08:03 +0100</lastBuildDate>
+    <item>
+      <title>Gradsko veće: Novi mandat Agoti Balint, predložene promene u školskim odborima</title>
+      <link>https://suboticke.rs/agota-balint-novi-mandat-gradske-odluke/</link>
+      <guid isPermaLink="true">https://suboticke.rs/agota-balint-novi-mandat-gradske-odluke/</guid>
+      <pubDate>Fri, 30 Oct 2026 14:08:03 +0100</pubDate>
+    </item>
+    <item>
+      <title>Indijski filmovi ponovo pred subotičkom publikom: Besplatne projekcije četvrtkom do 24. decembra</title>
+      <link>https://suboticke.rs/besplatni-indijski-filmovi-abazija-palic/</link>
+      <guid isPermaLink="true">https://suboticke.rs/besplatni-indijski-filmovi-abazija-palic/</guid>
+      <pubDate>Fri, 30 Oct 2026 14:03:59 +0100</pubDate>
+    </item>
     <item>
       <title>U subotu akcije čišćenja u Subotici i na Paliću</title>
       <link>https://suboticke.rs/akcije-ciscenja-subotica-palic-31-oktobar/</link>
@@ -197,18 +209,6 @@
       <link>https://suboticke.rs/pomoc-luka-vukov-subotica-504-na-3800/</link>
       <guid isPermaLink="true">https://suboticke.rs/pomoc-luka-vukov-subotica-504-na-3800/</guid>
       <pubDate>Wed, 21 Oct 2026 10:27:41 +0200</pubDate>
-    </item>
-    <item>
-      <title>Danas u Subotici do 25 stepeni, isključenja struje i ispiranje vodovodne mreže</title>
-      <link>https://suboticke.rs/servisne-informacije-subotica-21-oktobar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/servisne-informacije-subotica-21-oktobar-2026/</guid>
-      <pubDate>Wed, 21 Oct 2026 09:45:45 +0200</pubDate>
-    </item>
-    <item>
-      <title>Zoltan Kašaš i Stojan Ivković dobitnici nagrade „Pásztor István“</title>
-      <link>https://suboticke.rs/zoltan-kasas-stojan-ivkovic-nagrada-pastor-istvan-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/zoltan-kasas-stojan-ivkovic-nagrada-pastor-istvan-2026/</guid>
-      <pubDate>Tue, 20 Oct 2026 16:35:58 +0200</pubDate>
     </item>
   </channel>
 </rss>
