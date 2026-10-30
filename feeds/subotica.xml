@@ -5,7 +5,13 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Fri, 30 Oct 2026 11:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 11:41:00 +0100</lastBuildDate>
+    <item>
+      <title>„Otvorena IT vrata“ – povezivanje fakulteta i IT sektora</title>
+      <link>https://www.subotica.com/vesti/otvorena-it-vrata-povezivanje-fakulteta-i-it-sektora-id55329.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/otvorena-it-vrata-povezivanje-fakulteta-i-it-sektora-id55329.html</guid>
+      <pubDate>Fri, 30 Oct 2026 11:41:00 +0100</pubDate>
+    </item>
     <item>
       <title>Lordan Zafranović: „Politika i ideologije prolaze, ostaje film kao upozorenje generacijama koje dolaze“</title>
       <link>https://www.subotica.com/vesti/lordan-zafranovic-politika-i-ideologije-prolaze-ostaje-film-kao-upozorenje-generacijama-koje-dolaze-id55326.html</link>
@@ -143,12 +149,6 @@
       <link>https://www.subotica.com/vesti/plivanje-spartak-osvojio-131-medalju-na-mitingu-prozivka-2026-id55291.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/plivanje-spartak-osvojio-131-medalju-na-mitingu-prozivka-2026-id55291.html</guid>
       <pubDate>Tue, 27 Oct 2026 11:43:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Isključenja struje za sredu (28. oktobar)</title>
-      <link>https://www.subotica.com/vesti/iskljucenja-struje-za-sredu-28-oktobar-id55300.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/iskljucenja-struje-za-sredu-28-oktobar-id55300.html</guid>
-      <pubDate>Tue, 27 Oct 2026 08:10:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
