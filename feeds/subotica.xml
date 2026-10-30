@@ -5,7 +5,13 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Fri, 30 Oct 2026 08:51:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 10:30:00 +0100</lastBuildDate>
+    <item>
+      <title>Konjički sport: Jubilarna 50. „Trka grada Subotice“ za kraj kasačke sezone</title>
+      <link>https://www.subotica.com/vesti/konjicki-sport-jubilarna-50-trka-grada-subotice-za-kraj-kasacke-sezone-id55311.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/konjicki-sport-jubilarna-50-trka-grada-subotice-za-kraj-kasacke-sezone-id55311.html</guid>
+      <pubDate>Fri, 30 Oct 2026 10:30:00 +0100</pubDate>
+    </item>
     <item>
       <title>Potresna priča o stradanju na Kozari pred subotičkom publikom – Zafranovićev film ispunio bioskop „Aleksandar Lifka“</title>
       <link>https://www.subotica.com/vesti/potresna-prica-o-stradanju-na-kozari-pred-subotickom-publikom-zafranovicev-film-ispunio-bioskop-aleksandar-lifka-id55325.html</link>
@@ -143,12 +149,6 @@
       <link>https://www.subotica.com/vesti/kruzni-tok-kod-majsanskog-mosta-pri-kraju-pustanje-u-saobracaj-pocetkom-novembra-id55298.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/kruzni-tok-kod-majsanskog-mosta-pri-kraju-pustanje-u-saobracaj-pocetkom-novembra-id55298.html</guid>
       <pubDate>Mon, 26 Oct 2026 14:27:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Studentska lista u Subotici osvojila 52.09 odsto (37.798 glasova), SNS 35,36 odsto (25.661), SVM 9,48 odsto (6.882)</title>
-      <link>https://www.subotica.com/vesti/studentska-lista-u-subotici-osvojila-52-09-odsto-37-798-glasova-sns-35-36-odsto-25-661-svm-9-48-odsto-6-882-id55297.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/studentska-lista-u-subotici-osvojila-52-09-odsto-37-798-glasova-sns-35-36-odsto-25-661-svm-9-48-odsto-6-882-id55297.html</guid>
-      <pubDate>Mon, 26 Oct 2026 11:29:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
