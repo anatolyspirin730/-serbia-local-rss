@@ -19,21 +19,17 @@
   },
   {
     "id": "urbanizamsu",
-    "status": "native_feed_verified",
-    "url": "https://urbanizamsu.rs/feed/",
-    "feed": {
-      "format": "rss",
-      "items": 7
-    }
+    "status": "needs_custom_parser",
+    "empty_feeds": [],
+    "reason": "No trustworthy dated articles found; no feed fabricated",
+    "next_action": "site-specific parser or official alternate source required"
   },
   {
     "id": "tourism-subotica",
-    "status": "native_feed_verified",
-    "url": "https://visitsubotica.rs/feed/",
-    "feed": {
-      "format": "rss",
-      "items": 10
-    }
+    "status": "needs_custom_parser",
+    "empty_feeds": [],
+    "reason": "No trustworthy dated articles found; no feed fabricated",
+    "next_action": "site-specific parser or official alternate source required"
   },
   {
     "id": "vodovodsu",
@@ -59,7 +55,7 @@
     "id": "toplana",
     "status": "fetch_failed",
     "url": "https://toplanasubotica.co.rs/",
-    "error": "HTTPSConnectionPool(host='toplanasubotica.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='toplanasubotica.co.rs', port=443) at 0x7f4d1c8d5550>, 'Connection to toplanasubotica.co.rs timed out. (connect timeout=8)'))"
+    "error": "HTTPSConnectionPool(host='toplanasubotica.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='toplanasubotica.co.rs', port=443) at 0x7fd76280f6d0>, 'Connection to toplanasubotica.co.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "suboticagas",
@@ -85,12 +81,10 @@
   },
   {
     "id": "park-palic",
-    "status": "native_feed_verified",
-    "url": "https://park-palic.rs/feed/",
-    "feed": {
-      "format": "rss",
-      "items": 10
-    }
+    "status": "needs_custom_parser",
+    "empty_feeds": [],
+    "reason": "No trustworthy dated articles found; no feed fabricated",
+    "next_action": "site-specific parser or official alternate source required"
   },
   {
     "id": "deponija",
@@ -123,12 +117,10 @@
   },
   {
     "id": "dimnicar",
-    "status": "native_feed_verified",
-    "url": "https://dimnicar.co.rs/index.php?format=feed&type=rss",
-    "feed": {
-      "format": "rss",
-      "items": 4
-    }
+    "status": "needs_custom_parser",
+    "empty_feeds": [],
+    "reason": "No trustworthy dated articles found; no feed fabricated",
+    "next_action": "site-specific parser or official alternate source required"
   },
   {
     "id": "subotica-com",
