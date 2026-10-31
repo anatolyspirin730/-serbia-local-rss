@@ -5,7 +5,13 @@
     <link>https://suboticke.rs/tema/srbija/vesti/</link>
     <description>Новости: Subotičke — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Fri, 30 Oct 2026 14:08:03 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 09:41:41 +0100</lastBuildDate>
+    <item>
+      <title>OŠ „Ivan Milutinović“ prelazi na onlajn nastavu</title>
+      <link>https://suboticke.rs/os-ivan-milutinovic-subotica-onlajn-nastava/</link>
+      <guid isPermaLink="true">https://suboticke.rs/os-ivan-milutinovic-subotica-onlajn-nastava/</guid>
+      <pubDate>Sat, 31 Oct 2026 09:41:41 +0100</pubDate>
+    </item>
     <item>
       <title>Gradsko veće: Novi mandat Agoti Balint, predložene promene u školskim odborima</title>
       <link>https://suboticke.rs/agota-balint-novi-mandat-gradske-odluke/</link>
@@ -205,10 +211,16 @@
       <pubDate>Wed, 21 Oct 2026 13:11:20 +0200</pubDate>
     </item>
     <item>
-      <title>Luki iz Subotice potrebna podrška za terapije: Pomozimo porukom 504 na 3800</title>
-      <link>https://suboticke.rs/pomoc-luka-vukov-subotica-504-na-3800/</link>
-      <guid isPermaLink="true">https://suboticke.rs/pomoc-luka-vukov-subotica-504-na-3800/</guid>
-      <pubDate>Wed, 21 Oct 2026 10:27:41 +0200</pubDate>
+      <title>Subota u Subotici: Trka grada, bazar u Priči, antikviteti do ponoći i večernje svirke</title>
+      <link>https://suboticke.rs/desavanja-subotica-31-oktobar-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/desavanja-subotica-31-oktobar-2026/</guid>
+      <pubDate>Sat, 31 Oct 2026 09:39:40 +0100</pubDate>
+    </item>
+    <item>
+      <title>Isključenja struje u četiri naselja, autobusi i dalje izmenjenim trasama</title>
+      <link>https://suboticke.rs/servisne-informacije-subotica-31-oktobar-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/servisne-informacije-subotica-31-oktobar-2026/</guid>
+      <pubDate>Sat, 31 Oct 2026 09:38:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
