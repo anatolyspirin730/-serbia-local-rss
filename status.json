@@ -71,8 +71,7 @@
     "feed": {
       "format": "rss",
       "items": 8
-    },
-    "discovery": "direct_feed_probe"
+    }
   },
   {
     "id": "sutrans",
@@ -104,9 +103,12 @@
   },
   {
     "id": "supijace",
-    "status": "fetch_failed",
-    "url": "https://supijace.co.rs/",
-    "error": "HTTPSConnectionPool(host='supijace.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='supijace.co.rs', port=443) at 0x7f3000ae0750>, 'Connection to supijace.co.rs timed out. (connect timeout=8)'))"
+    "status": "native_feed_verified",
+    "url": "https://supijace.co.rs/feed/",
+    "feed": {
+      "format": "rss",
+      "items": 10
+    }
   },
   {
     "id": "stadion",
