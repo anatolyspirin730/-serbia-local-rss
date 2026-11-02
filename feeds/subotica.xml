@@ -5,7 +5,13 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Sun, 01 Nov 2026 19:09:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 10:43:00 +0100</lastBuildDate>
+    <item>
+      <title>Prošle nedelje iz saobraćaja isključeno 36 vozača, petoro zadržano na trežnjenju</title>
+      <link>https://www.subotica.com/vesti/prosle-nedelje-iz-saobracaja-iskljuceno-36-vozaca-petoro-zadrzano-na-treznjenju-id55346.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/prosle-nedelje-iz-saobracaja-iskljuceno-36-vozaca-petoro-zadrzano-na-treznjenju-id55346.html</guid>
+      <pubDate>Mon, 02 Nov 2026 10:43:00 +0100</pubDate>
+    </item>
     <item>
       <title>Uhapšen osumnjičeni za pokušaj ubistva</title>
       <link>https://www.subotica.com/vesti/uhapsen-osumnjiceni-za-pokusaj-ubistva-id55340.html</link>
@@ -143,12 +149,6 @@
       <link>https://www.subotica.com/vesti/groblja-za-predstojeci-praznik-otvorena-od-6-do-21-cas-id55308.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/groblja-za-predstojeci-praznik-otvorena-od-6-do-21-cas-id55308.html</guid>
       <pubDate>Wed, 28 Oct 2026 10:33:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Odbojka: Spartak maksimalno do četvrtfinala Kupa Srbije</title>
-      <link>https://www.subotica.com/vesti/odbojka-spartak-maksimalno-do-cetvrtfinala-kupa-srbije-id55307.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/odbojka-spartak-maksimalno-do-cetvrtfinala-kupa-srbije-id55307.html</guid>
-      <pubDate>Wed, 28 Oct 2026 09:48:00 +0100</pubDate>
     </item>
   </channel>
 </rss>

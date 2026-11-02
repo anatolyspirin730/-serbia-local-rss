@@ -5,7 +5,13 @@
     <link>https://suboticke.rs/tema/srbija/vesti/</link>
     <description>Новости: Subotičke — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Sun, 01 Nov 2026 20:41:14 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 09:51:33 +0100</lastBuildDate>
+    <item>
+      <title>Servisne informacije za 2. novembar: Hladno vreme, radovi u Proleterskih brigada i izmene autobuskih trasa</title>
+      <link>https://suboticke.rs/servisne-informacije-subotica-2-novembar-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/servisne-informacije-subotica-2-novembar-2026/</guid>
+      <pubDate>Mon, 02 Nov 2026 09:51:33 +0100</pubDate>
+    </item>
     <item>
       <title>Vlasniku prodavnice zadao tri uboda: Uhapšen Subotičanin zbog sumnje na pokušaj ubistva</title>
       <link>https://suboticke.rs/subotica-pokusaj-ubistva-vlasnik-prodavnice/</link>
@@ -203,12 +209,6 @@
       <link>https://suboticke.rs/nize-fudbalske-lige-subotica-rezultati-raspored-24-25-oktobar-2026/</link>
       <guid isPermaLink="true">https://suboticke.rs/nize-fudbalske-lige-subotica-rezultati-raspored-24-25-oktobar-2026/</guid>
       <pubDate>Fri, 23 Oct 2026 11:10:16 +0200</pubDate>
-    </item>
-    <item>
-      <title>Servisne informacije za 23. oktobar: Sunčano i sveže, izmene autobuskih trasa i obustave saobraćaja</title>
-      <link>https://suboticke.rs/servisne-informacije-subotica-23-oktobar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/servisne-informacije-subotica-23-oktobar-2026/</guid>
-      <pubDate>Fri, 23 Oct 2026 09:23:04 +0200</pubDate>
     </item>
   </channel>
 </rss>
