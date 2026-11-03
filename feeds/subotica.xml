@@ -5,7 +5,13 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Tue, 03 Nov 2026 10:34:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 12:08:00 +0100</lastBuildDate>
+    <item>
+      <title>U četvrtak Sajam zapošljavanja u Subotici: Više od 220 slobodnih radnih mesta</title>
+      <link>https://www.subotica.com/vesti/u-cetvrtak-sajam-zaposljavanja-u-subotici-vise-od-220-slobodnih-radnih-mesta-id55355.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/u-cetvrtak-sajam-zaposljavanja-u-subotici-vise-od-220-slobodnih-radnih-mesta-id55355.html</guid>
+      <pubDate>Tue, 03 Nov 2026 12:08:00 +0100</pubDate>
+    </item>
     <item>
       <title>Sećanje na 1.167 nevinih žrtava kod „Ptice slomljenih krila”, stradalima 1944. i 1945. godine</title>
       <link>https://www.subotica.com/vesti/secanje-na-1-167-nevinih-zrtava-kod-ptice-slomljenih-krila-stradalima-1944-i-1945-godine-id55354.html</link>
@@ -23,6 +29,18 @@
       <link>https://www.subotica.com/vesti/sportsko-penjanje-reka-kis-osvojila-srebro-na-balkanskom-prvenstvu-id55352.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/sportsko-penjanje-reka-kis-osvojila-srebro-na-balkanskom-prvenstvu-id55352.html</guid>
       <pubDate>Tue, 03 Nov 2026 08:25:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Fudbal: Aleksandar Petrović doneo pobedu Spartaku</title>
+      <link>https://www.subotica.com/vesti/fudbal-aleksandar-petrovic-doneo-pobedu-spartaku-id55351.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/fudbal-aleksandar-petrovic-doneo-pobedu-spartaku-id55351.html</guid>
+      <pubDate>Tue, 03 Nov 2026 08:17:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Fudbal (Ž): Spartak i TSC odigrali nerešeno (1:1)</title>
+      <link>https://www.subotica.com/vesti/fudbal-z-spartak-i-tsc-odigrali-nereseno-1-1-id55350.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/fudbal-z-spartak-i-tsc-odigrali-nereseno-1-1-id55350.html</guid>
+      <pubDate>Tue, 03 Nov 2026 08:14:00 +0100</pubDate>
     </item>
     <item>
       <title>Neispravni dimnjaci, instalacije i nepažnja najčešći uzroci požara tokom grejne sezone</title>
@@ -131,24 +149,6 @@
       <link>https://www.subotica.com/vesti/politehnicka-skola-sindikat-i-roditelji-traze-ostavku-direktorke-ona-odbacuje-optuzbe-planic-vracen-u-nastavu-id55335.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/politehnicka-skola-sindikat-i-roditelji-traze-ostavku-direktorke-ona-odbacuje-optuzbe-planic-vracen-u-nastavu-id55335.html</guid>
       <pubDate>Fri, 30 Oct 2026 15:59:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Roditelji i dalje čekaju odgovore nakon pada dela rasvete u OŠ „Ivan Milutinović”: Da li je škola bezbedna za učenike?</title>
-      <link>https://www.subotica.com/vesti/roditelji-i-dalje-cekaju-odgovore-nakon-pada-dela-rasvete-u-os-ivan-milutinovic-da-li-je-skola-bezbedna-za-ucenike-id55332.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/roditelji-i-dalje-cekaju-odgovore-nakon-pada-dela-rasvete-u-os-ivan-milutinovic-da-li-je-skola-bezbedna-za-ucenike-id55332.html</guid>
-      <pubDate>Fri, 30 Oct 2026 14:09:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>„Otvorena IT vrata“ – povezivanje fakulteta i IT sektora</title>
-      <link>https://www.subotica.com/vesti/otvorena-it-vrata-povezivanje-fakulteta-i-it-sektora-id55329.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/otvorena-it-vrata-povezivanje-fakulteta-i-it-sektora-id55329.html</guid>
-      <pubDate>Fri, 30 Oct 2026 11:41:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Lordan Zafranović: „Politika i ideologije prolaze, ostaje film kao upozorenje generacijama koje dolaze“</title>
-      <link>https://www.subotica.com/vesti/lordan-zafranovic-politika-i-ideologije-prolaze-ostaje-film-kao-upozorenje-generacijama-koje-dolaze-id55326.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/lordan-zafranovic-politika-i-ideologije-prolaze-ostaje-film-kao-upozorenje-generacijama-koje-dolaze-id55326.html</guid>
-      <pubDate>Fri, 30 Oct 2026 11:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
