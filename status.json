@@ -71,7 +71,8 @@
     "feed": {
       "format": "rss",
       "items": 8
-    }
+    },
+    "discovery": "direct_feed_probe"
   },
   {
     "id": "sutrans",
