@@ -5,7 +5,13 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Wed, 04 Nov 2026 11:32:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 12:00:00 +0100</lastBuildDate>
+    <item>
+      <title>Izbori za nacionalne savete: Lista &quot;Pokret za novi početak vojvođanskih Mađara&quot;</title>
+      <link>https://www.subotica.com/vesti/izbori-za-nacionalne-savete-lista-pokret-za-novi-pocetak-vojvodjanskih-madjara-id55360.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/izbori-za-nacionalne-savete-lista-pokret-za-novi-pocetak-vojvodjanskih-madjara-id55360.html</guid>
+      <pubDate>Wed, 04 Nov 2026 12:00:00 +0100</pubDate>
+    </item>
     <item>
       <title>Izbori za nacionalne savete: predstavljamo liste mađarske, hrvatske i bunjevačke zajednice</title>
       <link>https://www.subotica.com/vesti/izbori-za-nacionalne-savete-predstavljamo-liste-madjarske-hrvatske-i-bunjevacke-zajednice-id55365.html</link>
@@ -143,12 +149,6 @@
       <link>https://www.subotica.com/vesti/uhapsen-osumnjiceni-za-pokusaj-ubistva-id55340.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/uhapsen-osumnjiceni-za-pokusaj-ubistva-id55340.html</guid>
       <pubDate>Sun, 01 Nov 2026 19:09:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Požar u nekadašnjem hotelu „Sport“ na Paliću: Goreli stari dušeci u objektu koji decenijama propada</title>
-      <link>https://www.subotica.com/vesti/pozar-u-nekadasnjem-hotelu-sport-na-palicu-goreli-stari-duseci-u-objektu-koji-decenijama-propada-id55337.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/pozar-u-nekadasnjem-hotelu-sport-na-palicu-goreli-stari-duseci-u-objektu-koji-decenijama-propada-id55337.html</guid>
-      <pubDate>Sun, 01 Nov 2026 10:51:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
