@@ -5,7 +5,13 @@
     <link>https://suboticke.rs/tema/srbija/vesti/</link>
     <description>Новости: Subotičke — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Wed, 04 Nov 2026 11:13:54 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 21:30:55 +0100</lastBuildDate>
+    <item>
+      <title>Deo kolektiva Politehničke škole u krivičnoj prijavi izneo optužbe protiv direktorke</title>
+      <link>https://suboticke.rs/krivicna-prijava-direktorka-politehnicka-skola-subotica/</link>
+      <guid isPermaLink="true">https://suboticke.rs/krivicna-prijava-direktorka-politehnicka-skola-subotica/</guid>
+      <pubDate>Wed, 04 Nov 2026 21:30:55 +0100</pubDate>
+    </item>
     <item>
       <title>Oblačno i hladno, ispiranje vodovodne mreže i izmene u saobraćaju</title>
       <link>https://suboticke.rs/servisne-informacije-subotica-4-novembar-2026/</link>
@@ -205,12 +211,6 @@
       <pubDate>Wed, 28 Oct 2026 10:41:46 +0100</pubDate>
     </item>
     <item>
-      <title>Servisne informacije za 28. oktobar: Isključenja struje, ispiranje vodovodne mreže i izmene u prevozu</title>
-      <link>https://suboticke.rs/servisne-informacije-subotica-28-oktobar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/servisne-informacije-subotica-28-oktobar-2026/</guid>
-      <pubDate>Wed, 28 Oct 2026 09:11:00 +0100</pubDate>
-    </item>
-    <item>
       <title>Bajmok domaćin trećeg turnira U15 Fleg fudbal lige Srbije</title>
       <link>https://suboticke.rs/bajmok-u15-turnir-fleg-fudbal-7-novembar/</link>
       <guid isPermaLink="true">https://suboticke.rs/bajmok-u15-turnir-fleg-fudbal-7-novembar/</guid>
@@ -221,12 +221,6 @@
       <link>https://suboticke.rs/izbori-nacionalni-saveti-2026-subotica-liste/</link>
       <guid isPermaLink="true">https://suboticke.rs/izbori-nacionalni-saveti-2026-subotica-liste/</guid>
       <pubDate>Wed, 04 Nov 2026 10:54:22 +0100</pubDate>
-    </item>
-    <item>
-      <title>Horovi iz Subotice, Bečeja i Kule na Festivalu duhovne muzike 7. novembra</title>
-      <link>https://suboticke.rs/festival-duhovne-muzike-subotica-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/festival-duhovne-muzike-subotica-2026/</guid>
-      <pubDate>Wed, 04 Nov 2026 10:16:01 +0100</pubDate>
     </item>
   </channel>
 </rss>
