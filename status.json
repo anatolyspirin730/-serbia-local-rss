@@ -3,19 +3,19 @@
     "id": "subotica-city",
     "status": "ssl_error",
     "url": "https://www.subotica.rs/",
-    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))"
+    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))"
   },
   {
     "id": "subotica-enterprises",
     "status": "ssl_error",
     "url": "https://www.subotica.rs/",
-    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))"
+    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))"
   },
   {
     "id": "subotica-official-gazette",
     "status": "ssl_error",
     "url": "https://www.subotica.rs/",
-    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))"
+    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))"
   },
   {
     "id": "urbanizamsu",
@@ -57,12 +57,9 @@
   },
   {
     "id": "toplana",
-    "status": "native_feed_verified",
-    "url": "https://toplanasubotica.co.rs/feed/",
-    "feed": {
-      "format": "rss",
-      "items": 10
-    }
+    "status": "fetch_failed",
+    "url": "https://toplanasubotica.co.rs/",
+    "error": "HTTPSConnectionPool(host='toplanasubotica.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='toplanasubotica.co.rs', port=443) at 0x7ffa828d9110>, 'Connection to toplanasubotica.co.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "suboticagas",
@@ -77,7 +74,7 @@
     "id": "sutrans",
     "status": "ssl_error",
     "url": "https://sutrans.rs/",
-    "error": "HTTPSConnectionPool(host='sutrans.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'sutrans.rs'. (_ssl.c:1016)\")))"
+    "error": "HTTPSConnectionPool(host='sutrans.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'sutrans.rs'. (_ssl.c:1018)\")))"
   },
   {
     "id": "palic-ludas",
@@ -99,7 +96,7 @@
     "id": "deponija",
     "status": "ssl_error",
     "url": "https://deponija.rs/",
-    "error": "HTTPSConnectionPool(host='deponija.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'deponija.rs'. (_ssl.c:1016)\")))"
+    "error": "HTTPSConnectionPool(host='deponija.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'deponija.rs'. (_ssl.c:1018)\")))"
   },
   {
     "id": "supijace",
