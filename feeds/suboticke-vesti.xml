@@ -5,7 +5,13 @@
     <link>https://suboticke.rs/tema/srbija/vesti/</link>
     <description>Новости: Subotičke — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Thu, 05 Nov 2026 12:35:17 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 12:59:40 +0100</lastBuildDate>
+    <item>
+      <title>Kozomora najavio ulaganja i dijalog, Vučinac ocenio da nema suštinskih promena</title>
+      <link>https://suboticke.rs/kozomora-ekspoze-luka-vucinac/</link>
+      <guid isPermaLink="true">https://suboticke.rs/kozomora-ekspoze-luka-vucinac/</guid>
+      <pubDate>Thu, 05 Nov 2026 12:59:40 +0100</pubDate>
+    </item>
     <item>
       <title>Nenad Kozomora novi gradonačelnik Subotice, Čila Goli i članovi Gradskog veća ponovo izabrani</title>
       <link>https://suboticke.rs/nenad-kozomora-gradonacelnik-subotice-gradsko-vece/</link>
@@ -203,18 +209,6 @@
       <link>https://suboticke.rs/ponavljanje-izbora-subotica-hajdukovo-1-novembar-2026/</link>
       <guid isPermaLink="true">https://suboticke.rs/ponavljanje-izbora-subotica-hajdukovo-1-novembar-2026/</guid>
       <pubDate>Thu, 29 Oct 2026 10:00:47 +0100</pubDate>
-    </item>
-    <item>
-      <title>Servisne informacije za 29. oktobar: Isključenja struje, deo Palića bez vode i izmene u prevozu</title>
-      <link>https://suboticke.rs/servisne-informacije-subotica-29-oktobar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/servisne-informacije-subotica-29-oktobar-2026/</guid>
-      <pubDate>Thu, 29 Oct 2026 09:26:49 +0100</pubDate>
-    </item>
-    <item>
-      <title>Mlada rakija pred žirijem i publikom: festival u Ljutovu 14. novembra</title>
-      <link>https://suboticke.rs/festival-mlade-rakije-ljutovo-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/festival-mlade-rakije-ljutovo-2026/</guid>
-      <pubDate>Thu, 05 Nov 2026 11:22:23 +0100</pubDate>
     </item>
   </channel>
 </rss>
