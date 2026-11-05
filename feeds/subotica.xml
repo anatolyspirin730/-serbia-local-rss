@@ -5,7 +5,7 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Thu, 05 Nov 2026 14:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 16:00:00 +0100</lastBuildDate>
     <item>
       <title>Nenad Kozomora novi gradonačelnik Subotice: „Biću otvoren za predloge, bez obzira na politička uverenja“</title>
       <link>https://www.subotica.com/vesti/nenad-kozomora-novi-gradonacelnik-subotice-bicu-otvoren-za-predloge-bez-obzira-na-politicka-uverenja-id55377.html</link>
@@ -23,6 +23,12 @@
       <link>https://www.subotica.com/vesti/vucinac-zlf-izbor-novog-gradonacelnika-nije-doneo-nikakve-sustinske-promene-id55379.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/vucinac-zlf-izbor-novog-gradonacelnika-nije-doneo-nikakve-sustinske-promene-id55379.html</guid>
       <pubDate>Thu, 05 Nov 2026 12:06:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Izbori za nacionalne savete: Lista &quot;Složno za HNV&quot;</title>
+      <link>https://www.subotica.com/vesti/izbori-za-nacionalne-savete-lista-slozno-za-hnv-id55381.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/izbori-za-nacionalne-savete-lista-slozno-za-hnv-id55381.html</guid>
+      <pubDate>Thu, 05 Nov 2026 16:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Završnica Kupa Srbije u preponskom jahanju na Ergeli Kelebija</title>
@@ -47,6 +53,12 @@
       <link>https://www.subotica.com/vesti/izbori-za-nacionalne-savete-lista-savez-hrvata-vojvodine-sve-po-planu-2026-id55362.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/izbori-za-nacionalne-savete-lista-savez-hrvata-vojvodine-sve-po-planu-2026-id55362.html</guid>
       <pubDate>Thu, 05 Nov 2026 10:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Isključenja struje za petak (6. novembar)</title>
+      <link>https://www.subotica.com/vesti/iskljucenja-struje-za-petak-6-novembar-id55375.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/iskljucenja-struje-za-petak-6-novembar-id55375.html</guid>
+      <pubDate>Thu, 05 Nov 2026 08:52:00 +0100</pubDate>
     </item>
     <item>
       <title>Nenad Kozomora predložen za novog gradonačelnika Subotice</title>
@@ -137,18 +149,6 @@
       <link>https://www.subotica.com/vesti/kosarka-spartak-bolji-od-mege-posle-produzetka-za-trecu-pobedu-u-aba-ligi-id55353.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/kosarka-spartak-bolji-od-mege-posle-produzetka-za-trecu-pobedu-u-aba-ligi-id55353.html</guid>
       <pubDate>Tue, 03 Nov 2026 08:33:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Sportsko penjanje: Reka Kiš osvojila srebro na Balkanskom prvenstvu</title>
-      <link>https://www.subotica.com/vesti/sportsko-penjanje-reka-kis-osvojila-srebro-na-balkanskom-prvenstvu-id55352.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/sportsko-penjanje-reka-kis-osvojila-srebro-na-balkanskom-prvenstvu-id55352.html</guid>
-      <pubDate>Tue, 03 Nov 2026 08:25:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Fudbal: Aleksandar Petrović doneo pobedu Spartaku</title>
-      <link>https://www.subotica.com/vesti/fudbal-aleksandar-petrovic-doneo-pobedu-spartaku-id55351.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/fudbal-aleksandar-petrovic-doneo-pobedu-spartaku-id55351.html</guid>
-      <pubDate>Tue, 03 Nov 2026 08:17:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
