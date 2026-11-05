@@ -5,7 +5,13 @@
     <link>https://suboticke.rs/tema/srbija/vesti/</link>
     <description>Новости: Subotičke — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Thu, 05 Nov 2026 11:44:32 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 12:35:17 +0100</lastBuildDate>
+    <item>
+      <title>Nenad Kozomora novi gradonačelnik Subotice, Čila Goli i članovi Gradskog veća ponovo izabrani</title>
+      <link>https://suboticke.rs/nenad-kozomora-gradonacelnik-subotice-gradsko-vece/</link>
+      <guid isPermaLink="true">https://suboticke.rs/nenad-kozomora-gradonacelnik-subotice-gradsko-vece/</guid>
+      <pubDate>Thu, 05 Nov 2026 12:35:17 +0100</pubDate>
+    </item>
     <item>
       <title>Politehnička škola: Rajković odbacila navode iz krivične prijave dela kolektiva</title>
       <link>https://suboticke.rs/snjezana-rajkovic-odgovor-krivicna-prijava-politehnicka-skola/</link>
@@ -205,22 +211,10 @@
       <pubDate>Thu, 29 Oct 2026 09:26:49 +0100</pubDate>
     </item>
     <item>
-      <title>Četiri ulice na Paliću u četvrtak bez vode od 8 do 13 časova</title>
-      <link>https://suboticke.rs/palic-bez-vode-29-oktobar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/palic-bez-vode-29-oktobar-2026/</guid>
-      <pubDate>Wed, 28 Oct 2026 13:29:45 +0100</pubDate>
-    </item>
-    <item>
       <title>Mlada rakija pred žirijem i publikom: festival u Ljutovu 14. novembra</title>
       <link>https://suboticke.rs/festival-mlade-rakije-ljutovo-2026/</link>
       <guid isPermaLink="true">https://suboticke.rs/festival-mlade-rakije-ljutovo-2026/</guid>
       <pubDate>Thu, 05 Nov 2026 11:22:23 +0100</pubDate>
-    </item>
-    <item>
-      <title>Spartak dočekuje Zadar, Jovanović: Voleo bih da nam rezultat dolazi iz odbrane</title>
-      <link>https://suboticke.rs/spartak-zadar-najava-5-novembar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/spartak-zadar-najava-5-novembar-2026/</guid>
-      <pubDate>Thu, 05 Nov 2026 08:34:11 +0100</pubDate>
     </item>
   </channel>
 </rss>
