@@ -5,7 +5,13 @@
     <link>https://suboticke.rs/tema/srbija/vesti/</link>
     <description>Новости: Subotičke — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Fri, 06 Nov 2026 10:35:18 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 11:39:34 +0100</lastBuildDate>
+    <item>
+      <title>Učenici OŠ „Ivan Milutinović“ od ponedeljka u Politehničkoj i Medicinskoj školi</title>
+      <link>https://suboticke.rs/ivan-milutinovic-subotica-nastava-druge-skole/</link>
+      <guid isPermaLink="true">https://suboticke.rs/ivan-milutinovic-subotica-nastava-druge-skole/</guid>
+      <pubDate>Fri, 06 Nov 2026 11:39:34 +0100</pubDate>
+    </item>
     <item>
       <title>Linija 16 u ponedeljak vozi skraćeno, tokom vikenda moguća kašnjenja</title>
       <link>https://suboticke.rs/subotica-linija-16-skracena-trasa-9-novembar-2026/</link>
@@ -205,16 +211,10 @@
       <pubDate>Sat, 31 Oct 2026 09:41:41 +0100</pubDate>
     </item>
     <item>
-      <title>Gradsko veće: Novi mandat Agoti Balint, predložene promene u školskim odborima</title>
-      <link>https://suboticke.rs/agota-balint-novi-mandat-gradske-odluke/</link>
-      <guid isPermaLink="true">https://suboticke.rs/agota-balint-novi-mandat-gradske-odluke/</guid>
-      <pubDate>Fri, 30 Oct 2026 14:08:03 +0100</pubDate>
-    </item>
-    <item>
-      <title>Umetnice Subotice i Vojvodine u fokusu trećeg susreta Ženskih studija</title>
-      <link>https://suboticke.rs/zenske-studije-subotica-umetnice-7-novembar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/zenske-studije-subotica-umetnice-7-novembar-2026/</guid>
-      <pubDate>Fri, 06 Nov 2026 10:25:57 +0100</pubDate>
+      <title>Rambo Amadeus u Subotici: Kako kladionice privlače decu i mlade</title>
+      <link>https://suboticke.rs/rambo-amadeus-subotica-kladjenje-mladi-inspirahub/</link>
+      <guid isPermaLink="true">https://suboticke.rs/rambo-amadeus-subotica-kladjenje-mladi-inspirahub/</guid>
+      <pubDate>Fri, 06 Nov 2026 11:23:44 +0100</pubDate>
     </item>
   </channel>
 </rss>
