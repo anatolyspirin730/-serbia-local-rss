@@ -5,7 +5,13 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Fri, 06 Nov 2026 11:51:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 12:35:00 +0100</lastBuildDate>
+    <item>
+      <title>Objavljen „Kalendar“, nova pesnička zbirka Đorđa Kuburića</title>
+      <link>https://www.subotica.com/vesti/objavljen-kalendar-nova-pesnicka-zbirka-dordja-kuburica-id55386.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/objavljen-kalendar-nova-pesnicka-zbirka-dordja-kuburica-id55386.html</guid>
+      <pubDate>Fri, 06 Nov 2026 12:35:00 +0100</pubDate>
+    </item>
     <item>
       <title>Zbog asfaltiranja Partizanskih baza izmene na autobuskoj liniji 16</title>
       <link>https://www.subotica.com/vesti/zbog-asfaltiranja-partizanskih-baza-izmene-na-autobuskoj-liniji-16-id55385.html</link>
@@ -143,12 +149,6 @@
       <link>https://www.subotica.com/vesti/poceo-tradicionalni-jesenji-meet-eat-gastro-festival-id55357.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/poceo-tradicionalni-jesenji-meet-eat-gastro-festival-id55357.html</guid>
       <pubDate>Wed, 04 Nov 2026 09:38:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>U četvrtak Sajam zapošljavanja u Subotici: Više od 220 slobodnih radnih mesta</title>
-      <link>https://www.subotica.com/vesti/u-cetvrtak-sajam-zaposljavanja-u-subotici-vise-od-220-slobodnih-radnih-mesta-id55355.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/u-cetvrtak-sajam-zaposljavanja-u-subotici-vise-od-220-slobodnih-radnih-mesta-id55355.html</guid>
-      <pubDate>Tue, 03 Nov 2026 12:08:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
