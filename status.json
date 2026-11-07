@@ -1,35 +1,39 @@
 [
   {
     "id": "subotica-city",
-    "status": "ssl_error",
+    "status": "fetch_failed",
     "url": "https://www.subotica.rs/",
-    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))"
+    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.subotica.rs', port=443) at 0x7f6fb0f5dd50>, 'Connection to www.subotica.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "subotica-enterprises",
-    "status": "ssl_error",
+    "status": "fetch_failed",
     "url": "https://www.subotica.rs/",
-    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))"
+    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.subotica.rs', port=443) at 0x7f6faf89c890>, 'Connection to www.subotica.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "subotica-official-gazette",
-    "status": "ssl_error",
+    "status": "fetch_failed",
     "url": "https://www.subotica.rs/",
-    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))"
+    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.subotica.rs', port=443) at 0x7f6faf884410>, 'Connection to www.subotica.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "urbanizamsu",
-    "status": "needs_custom_parser",
-    "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated",
-    "next_action": "site-specific parser or official alternate source required"
+    "status": "native_feed_verified",
+    "url": "https://urbanizamsu.rs/feed/",
+    "feed": {
+      "format": "rss",
+      "items": 7
+    }
   },
   {
     "id": "tourism-subotica",
-    "status": "needs_custom_parser",
-    "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated",
-    "next_action": "site-specific parser or official alternate source required"
+    "status": "native_feed_verified",
+    "url": "https://visitsubotica.rs/feed/",
+    "feed": {
+      "format": "rss",
+      "items": 10
+    }
   },
   {
     "id": "vodovodsu",
@@ -53,12 +57,9 @@
   },
   {
     "id": "toplana",
-    "status": "native_feed_verified",
-    "url": "https://toplanasubotica.co.rs/feed/",
-    "feed": {
-      "format": "rss",
-      "items": 10
-    }
+    "status": "fetch_failed",
+    "url": "https://toplanasubotica.co.rs/",
+    "error": "HTTPSConnectionPool(host='toplanasubotica.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='toplanasubotica.co.rs', port=443) at 0x7f6faf4c5290>, 'Connection to toplanasubotica.co.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "suboticagas",
@@ -84,16 +85,18 @@
   },
   {
     "id": "park-palic",
-    "status": "needs_custom_parser",
-    "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated",
-    "next_action": "site-specific parser or official alternate source required"
+    "status": "native_feed_verified",
+    "url": "https://park-palic.rs/feed/",
+    "feed": {
+      "format": "rss",
+      "items": 10
+    }
   },
   {
     "id": "deponija",
-    "status": "ssl_error",
+    "status": "fetch_failed",
     "url": "https://deponija.rs/",
-    "error": "HTTPSConnectionPool(host='deponija.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'deponija.rs'. (_ssl.c:1018)\")))"
+    "error": "HTTPSConnectionPool(host='deponija.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='deponija.rs', port=443) at 0x7f6faf26b050>, 'Connection to deponija.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "supijace",
@@ -120,10 +123,12 @@
   },
   {
     "id": "dimnicar",
-    "status": "needs_custom_parser",
-    "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated",
-    "next_action": "site-specific parser or official alternate source required"
+    "status": "native_feed_verified",
+    "url": "https://dimnicar.co.rs/index.php?format=feed&type=rss",
+    "feed": {
+      "format": "rss",
+      "items": 4
+    }
   },
   {
     "id": "subotica-com",
