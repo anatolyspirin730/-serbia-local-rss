@@ -5,7 +5,13 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Sat, 07 Nov 2026 13:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 06:50:00 +0100</lastBuildDate>
+    <item>
+      <title>Izbori za nacionalne savete: U Subotici pravo glasa ima 40.907 građana</title>
+      <link>https://www.subotica.com/vesti/izbori-za-nacionalne-savete-u-subotici-pravo-glasa-ima-40-907-gradjana-id55387.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/izbori-za-nacionalne-savete-u-subotici-pravo-glasa-ima-40-907-gradjana-id55387.html</guid>
+      <pubDate>Sun, 08 Nov 2026 06:50:00 +0100</pubDate>
+    </item>
     <item>
       <title>Roboti za unapređenje nastave i istraživanja u Visokoj tehničkoj školi</title>
       <link>https://www.subotica.com/vesti/roboti-za-unapredjenje-nastave-i-istrazivanja-u-visokoj-tehnickoj-skoli-id55384.html</link>
@@ -143,12 +149,6 @@
       <link>https://www.subotica.com/vesti/izbori-za-nacionalne-savete-lista-hnv-hrvatska-nacionalna-vizija-jasna-vojnic-id55369.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/izbori-za-nacionalne-savete-lista-hnv-hrvatska-nacionalna-vizija-jasna-vojnic-id55369.html</guid>
       <pubDate>Wed, 04 Nov 2026 14:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Izbori za nacionalne savete: Lista &quot;Pokret za novi početak vojvođanskih Mađara&quot;</title>
-      <link>https://www.subotica.com/vesti/izbori-za-nacionalne-savete-lista-pokret-za-novi-pocetak-vojvodjanskih-madjara-id55360.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/izbori-za-nacionalne-savete-lista-pokret-za-novi-pocetak-vojvodjanskih-madjara-id55360.html</guid>
-      <pubDate>Wed, 04 Nov 2026 12:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
