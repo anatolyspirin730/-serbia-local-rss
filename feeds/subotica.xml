@@ -5,7 +5,19 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Mon, 09 Nov 2026 09:53:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 12:31:00 +0100</lastBuildDate>
+    <item>
+      <title>Dizanje tegova: Spartak odbranio titulu ekipnog šampiona Srbije</title>
+      <link>https://www.subotica.com/vesti/dizanje-tegova-spartak-odbranio-titulu-ekipnog-sampiona-srbije-id55409.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/dizanje-tegova-spartak-odbranio-titulu-ekipnog-sampiona-srbije-id55409.html</guid>
+      <pubDate>Mon, 09 Nov 2026 12:31:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Oni dolaze: Marija Kujundžić OŠ „Ivan Milutinović“</title>
+      <link>https://www.subotica.com/vesti/oni-dolaze-marija-kujundzic-os-ivan-milutinovic-id55407.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/oni-dolaze-marija-kujundzic-os-ivan-milutinovic-id55407.html</guid>
+      <pubDate>Mon, 09 Nov 2026 12:03:00 +0100</pubDate>
+    </item>
     <item>
       <title>Komšije zasukale rukave i protekle subote: Železničko naselje zajedničkim snagama uređuje svoj kraj</title>
       <link>https://www.subotica.com/vesti/komsije-zasukale-rukave-i-protekle-subote-zeleznicko-naselje-zajednickim-snagama-uredjuje-svoj-kraj-id55405.html</link>
@@ -47,6 +59,12 @@
       <link>https://www.subotica.com/vesti/prosle-nedelje-iz-saobracaja-iskljuceno-35-vozaca-id55406.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/prosle-nedelje-iz-saobracaja-iskljuceno-35-vozaca-id55406.html</guid>
       <pubDate>Mon, 09 Nov 2026 09:53:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Rvanje: Spartak pobedom otvorio takmičenje za seniore, mlađi rvači osvojili 12 medalja</title>
+      <link>https://www.subotica.com/vesti/rvanje-spartak-pobedom-otvorio-takmicenje-za-seniore-mladji-rvaci-osvojili-12-medalja-id55401.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/rvanje-spartak-pobedom-otvorio-takmicenje-za-seniore-mladji-rvaci-osvojili-12-medalja-id55401.html</guid>
+      <pubDate>Mon, 09 Nov 2026 08:23:00 +0100</pubDate>
     </item>
     <item>
       <title>Fudbal: Spartak u finišu ispustio pobedu, Metalac izvukao bod</title>
@@ -131,24 +149,6 @@
       <link>https://www.subotica.com/vesti/plivanje-spartak-pobednik-lenert-kupa-u-somboru-id55372.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/plivanje-spartak-pobednik-lenert-kupa-u-somboru-id55372.html</guid>
       <pubDate>Fri, 06 Nov 2026 10:30:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Nenad Kozomora novi gradonačelnik Subotice: „Biću otvoren za predloge, bez obzira na politička uverenja“</title>
-      <link>https://www.subotica.com/vesti/nenad-kozomora-novi-gradonacelnik-subotice-bicu-otvoren-za-predloge-bez-obzira-na-politicka-uverenja-id55377.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/nenad-kozomora-novi-gradonacelnik-subotice-bicu-otvoren-za-predloge-bez-obzira-na-politicka-uverenja-id55377.html</guid>
-      <pubDate>Thu, 05 Nov 2026 10:34:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Izbori za nacionalne savete: Lista „Magyar Összefogás – Mađarska sloga“</title>
-      <link>https://www.subotica.com/vesti/izbori-za-nacionalne-savete-lista-magyar-oesszefogas-madjarska-sloga-id55378.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/izbori-za-nacionalne-savete-lista-magyar-oesszefogas-madjarska-sloga-id55378.html</guid>
-      <pubDate>Thu, 05 Nov 2026 14:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Izbori za nacionalne savete: Lista &quot;Složno za HNV&quot;</title>
-      <link>https://www.subotica.com/vesti/izbori-za-nacionalne-savete-lista-slozno-za-hnv-id55381.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/izbori-za-nacionalne-savete-lista-slozno-za-hnv-id55381.html</guid>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
