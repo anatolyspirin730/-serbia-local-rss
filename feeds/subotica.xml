@@ -5,7 +5,13 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Mon, 09 Nov 2026 00:14:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 08:02:00 +0100</lastBuildDate>
+    <item>
+      <title>Radovi u dve ulice u Subotici, linija 16 danas saobraća skraćeno</title>
+      <link>https://www.subotica.com/vesti/radovi-u-dve-ulice-u-subotici-linija-16-danas-saobraca-skraceno-id55399.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/radovi-u-dve-ulice-u-subotici-linija-16-danas-saobraca-skraceno-id55399.html</guid>
+      <pubDate>Mon, 09 Nov 2026 08:02:00 +0100</pubDate>
+    </item>
     <item>
       <title>&quot;Mađarska sloga&quot; proglasila pobedu, &quot;Novi početak&quot; očekuje oko trećine mandata</title>
       <link>https://www.subotica.com/vesti/madjarska-sloga-proglasila-pobedu-novi-pocetak-ocekuje-oko-trecine-mandata-id55398.html</link>
@@ -143,12 +149,6 @@
       <link>https://www.subotica.com/vesti/iskljucenja-struje-za-petak-6-novembar-id55375.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/iskljucenja-struje-za-petak-6-novembar-id55375.html</guid>
       <pubDate>Thu, 05 Nov 2026 08:52:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Nenad Kozomora predložen za novog gradonačelnika Subotice</title>
-      <link>https://www.subotica.com/vesti/nenad-kozomora-predlozen-za-novog-gradonacelnika-subotice-id55366.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/nenad-kozomora-predlozen-za-novog-gradonacelnika-subotice-id55366.html</guid>
-      <pubDate>Wed, 04 Nov 2026 11:02:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
