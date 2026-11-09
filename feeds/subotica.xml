@@ -5,7 +5,13 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Sun, 08 Nov 2026 16:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 00:14:00 +0100</lastBuildDate>
+    <item>
+      <title>&quot;Mađarska sloga&quot; proglasila pobedu, &quot;Novi početak&quot; očekuje oko trećine mandata</title>
+      <link>https://www.subotica.com/vesti/madjarska-sloga-proglasila-pobedu-novi-pocetak-ocekuje-oko-trecine-mandata-id55398.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/madjarska-sloga-proglasila-pobedu-novi-pocetak-ocekuje-oko-trecine-mandata-id55398.html</guid>
+      <pubDate>Mon, 09 Nov 2026 00:14:00 +0100</pubDate>
+    </item>
     <item>
       <title>Održani izbori za nacionalne savete, u toku obrada rezultata</title>
       <link>https://www.subotica.com/vesti/odrzani-izbori-za-nacionalne-savete-u-toku-obrada-rezultata-id55387.html</link>
@@ -143,12 +149,6 @@
       <link>https://www.subotica.com/vesti/nenad-kozomora-predlozen-za-novog-gradonacelnika-subotice-id55366.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/nenad-kozomora-predlozen-za-novog-gradonacelnika-subotice-id55366.html</guid>
       <pubDate>Wed, 04 Nov 2026 11:02:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Izbori za nacionalne savete: Lista &quot;Bunjevci za svoj identitet - Savez bačkih Bunjevaca&quot;</title>
-      <link>https://www.subotica.com/vesti/izbori-za-nacionalne-savete-lista-bunjevci-za-svoj-identitet-savez-backih-bunjevaca-id55364.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/izbori-za-nacionalne-savete-lista-bunjevci-za-svoj-identitet-savez-backih-bunjevaca-id55364.html</guid>
-      <pubDate>Wed, 04 Nov 2026 18:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
