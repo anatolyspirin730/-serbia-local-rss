@@ -1,21 +1,21 @@
 [
   {
     "id": "subotica-city",
-    "status": "ssl_error",
+    "status": "fetch_failed",
     "url": "https://www.subotica.rs/",
-    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))"
+    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.subotica.rs', port=443) at 0x7fd90195dd50>, 'Connection to www.subotica.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "subotica-enterprises",
-    "status": "ssl_error",
+    "status": "fetch_failed",
     "url": "https://www.subotica.rs/",
-    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))"
+    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.subotica.rs', port=443) at 0x7fd90027c710>, 'Connection to www.subotica.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "subotica-official-gazette",
-    "status": "ssl_error",
+    "status": "fetch_failed",
     "url": "https://www.subotica.rs/",
-    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))"
+    "error": "HTTPSConnectionPool(host='www.subotica.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.subotica.rs', port=443) at 0x7fd900269110>, 'Connection to www.subotica.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "urbanizamsu",
@@ -59,7 +59,7 @@
     "id": "toplana",
     "status": "fetch_failed",
     "url": "https://toplanasubotica.co.rs/",
-    "error": "HTTPSConnectionPool(host='toplanasubotica.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='toplanasubotica.co.rs', port=443) at 0x7f1e6d424190>, 'Connection to toplanasubotica.co.rs timed out. (connect timeout=8)'))"
+    "error": "HTTPSConnectionPool(host='toplanasubotica.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='toplanasubotica.co.rs', port=443) at 0x7fd8ffebc250>, 'Connection to toplanasubotica.co.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "suboticagas",
@@ -94,9 +94,9 @@
   },
   {
     "id": "deponija",
-    "status": "ssl_error",
+    "status": "fetch_failed",
     "url": "https://deponija.rs/",
-    "error": "HTTPSConnectionPool(host='deponija.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'deponija.rs'. (_ssl.c:1018)\")))"
+    "error": "HTTPSConnectionPool(host='deponija.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='deponija.rs', port=443) at 0x7fd8ffff1b10>, 'Connection to deponija.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "supijace",
@@ -136,7 +136,7 @@
     "url": "https://anatolyspirin730.github.io/-serbia-local-rss/feeds/subotica.xml",
     "feed": {
       "format": "rss",
-      "items": 25
+      "items": 26
     }
   },
   {
