@@ -5,7 +5,13 @@
     <link>https://suboticke.rs/tema/srbija/vesti/</link>
     <description>Новости: Subotičke — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Tue, 10 Nov 2026 16:10:37 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 09:11:30 +0100</lastBuildDate>
+    <item>
+      <title>U Subotici do petka kiša i otopljenje, za vikend osetno hladnije.</title>
+      <link>https://suboticke.rs/vreme-subotica-kisa-zahladjenje-prognoza-novembar/</link>
+      <guid isPermaLink="true">https://suboticke.rs/vreme-subotica-kisa-zahladjenje-prognoza-novembar/</guid>
+      <pubDate>Wed, 11 Nov 2026 09:11:30 +0100</pubDate>
+    </item>
     <item>
       <title>Autobusi 11. novembra po nedeljnom redu vožnje, tokom raspusta bez đačkih polazaka</title>
       <link>https://suboticke.rs/subotica-autobusi-red-voznje-11-13-novembar/</link>
@@ -205,22 +211,16 @@
       <pubDate>Tue, 03 Nov 2026 13:56:36 +0100</pubDate>
     </item>
     <item>
-      <title>Sajam zapošljavanja u Subotici: 20 poslodavaca traži više od 220 radnika</title>
-      <link>https://suboticke.rs/sajam-zaposljavanja-subotica-5-novembar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/sajam-zaposljavanja-subotica-5-novembar-2026/</guid>
-      <pubDate>Tue, 03 Nov 2026 13:34:05 +0100</pubDate>
+      <title>Drobnjak odlučio u poslednjim sekundama: Spartak savladao Šole 75:73</title>
+      <link>https://suboticke.rs/spartak-sole-75-73-drobnjak-liga-sampiona/</link>
+      <guid isPermaLink="true">https://suboticke.rs/spartak-sole-75-73-drobnjak-liga-sampiona/</guid>
+      <pubDate>Tue, 10 Nov 2026 22:30:05 +0100</pubDate>
     </item>
     <item>
-      <title>Projekat SNAŽNI: Poziv medijima, udruženjima i aktivistima za uključivanje u programe podrške</title>
-      <link>https://suboticke.rs/projekat-snazni-podrska-medijima-udruzenjima-aktivistima/</link>
-      <guid isPermaLink="true">https://suboticke.rs/projekat-snazni-podrska-medijima-udruzenjima-aktivistima/</guid>
-      <pubDate>Tue, 10 Nov 2026 16:04:27 +0100</pubDate>
-    </item>
-    <item>
-      <title>„Šnicla od dinosaurusa“: Putopisi Zorana Đođića pred subotičkom publikom</title>
-      <link>https://suboticke.rs/snicla-od-dinosaurusa-zoran-djodjic-subotica/</link>
-      <guid isPermaLink="true">https://suboticke.rs/snicla-od-dinosaurusa-zoran-djodjic-subotica/</guid>
-      <pubDate>Tue, 10 Nov 2026 13:49:15 +0100</pubDate>
+      <title>BizKod: Tri studenta, 12 sati i poslovni problem koji treba rešiti. AI je obavezan.</title>
+      <link>https://suboticke.rs/bizkod-2026-subotica-prijave-studenti-ai/</link>
+      <guid isPermaLink="true">https://suboticke.rs/bizkod-2026-subotica-prijave-studenti-ai/</guid>
+      <pubDate>Tue, 10 Nov 2026 18:11:43 +0100</pubDate>
     </item>
   </channel>
 </rss>
