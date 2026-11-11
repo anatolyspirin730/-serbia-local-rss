@@ -5,7 +5,7 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Wed, 11 Nov 2026 13:11:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 16:00:00 +0100</lastBuildDate>
     <item>
       <title>Kockanje sve dostupnije mladima: U Subotici o opasnostima zavisnosti, ulozi porodice i odgovornosti društva</title>
       <link>https://www.subotica.com/vesti/kockanje-sve-dostupnije-mladima-u-subotici-o-opasnostima-zavisnosti-ulozi-porodice-i-odgovornosti-drustva-id55427.html</link>
@@ -23,6 +23,12 @@
       <link>https://www.subotica.com/vesti/bizkod-se-vratio-prijave-otvorene-do-25-novembra-id55431.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/bizkod-se-vratio-prijave-otvorene-do-25-novembra-id55431.html</guid>
       <pubDate>Wed, 11 Nov 2026 12:18:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Isključenja struje za četvrtak (12. novembar)</title>
+      <link>https://www.subotica.com/vesti/iskljucenja-struje-za-cetvrtak-12-novembar-id55425.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/iskljucenja-struje-za-cetvrtak-12-novembar-id55425.html</guid>
+      <pubDate>Wed, 11 Nov 2026 16:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Košarka: Spartak u poslednjoj sekundi srušio Šole za novu pobedu u Ligi šampiona!</title>
@@ -143,12 +149,6 @@
       <link>https://www.subotica.com/vesti/prosle-nedelje-iz-saobracaja-iskljuceno-35-vozaca-id55406.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/prosle-nedelje-iz-saobracaja-iskljuceno-35-vozaca-id55406.html</guid>
       <pubDate>Mon, 09 Nov 2026 09:53:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Odbojka: Spartak preko Jedinstva rutinski do novih bodova</title>
-      <link>https://www.subotica.com/vesti/odbojka-spartak-preko-jedinstva-rutinski-do-novih-bodova-id55403.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/odbojka-spartak-preko-jedinstva-rutinski-do-novih-bodova-id55403.html</guid>
-      <pubDate>Mon, 09 Nov 2026 08:34:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
