@@ -5,7 +5,13 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Tue, 10 Nov 2026 22:47:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 12:18:00 +0100</lastBuildDate>
+    <item>
+      <title>BizKod se vratio, prijave otvorene do 25. novembra</title>
+      <link>https://www.subotica.com/vesti/bizkod-se-vratio-prijave-otvorene-do-25-novembra-id55431.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/bizkod-se-vratio-prijave-otvorene-do-25-novembra-id55431.html</guid>
+      <pubDate>Wed, 11 Nov 2026 12:18:00 +0100</pubDate>
+    </item>
     <item>
       <title>Košarka: Spartak u poslednjoj sekundi srušio Šole za novu pobedu u Ligi šampiona!</title>
       <link>https://www.subotica.com/vesti/kosarka-spartak-u-poslednjoj-sekundi-srusio-sole-za-novu-pobedu-u-ligi-sampiona-id55428.html</link>
@@ -143,12 +149,6 @@
       <link>https://www.subotica.com/vesti/rvanje-spartak-pobedom-otvorio-takmicenje-za-seniore-mladji-rvaci-osvojili-12-medalja-id55401.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/rvanje-spartak-pobedom-otvorio-takmicenje-za-seniore-mladji-rvaci-osvojili-12-medalja-id55401.html</guid>
       <pubDate>Mon, 09 Nov 2026 08:23:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Fudbal: Spartak u finišu ispustio pobedu, Metalac izvukao bod</title>
-      <link>https://www.subotica.com/vesti/fudbal-spartak-u-finisu-ispustio-pobedu-metalac-izvukao-bod-id55400.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/fudbal-spartak-u-finisu-ispustio-pobedu-metalac-izvukao-bod-id55400.html</guid>
-      <pubDate>Mon, 09 Nov 2026 08:17:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
