@@ -5,7 +5,13 @@
     <link>https://suboticke.rs/tema/subotica/servisne-informacije/</link>
     <description>Новости: Subotičke — Servisne informacije</description>
     <language>sr</language>
-    <lastBuildDate>Wed, 11 Nov 2026 09:11:30 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 09:15:36 +0100</lastBuildDate>
+    <item>
+      <title>Subotica danas: Kiša do 15 stepeni i isključenja struje</title>
+      <link>https://suboticke.rs/servisne-informacije-subotica-12-novembar-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/servisne-informacije-subotica-12-novembar-2026/</guid>
+      <pubDate>Thu, 12 Nov 2026 09:15:36 +0100</pubDate>
+    </item>
     <item>
       <title>U Subotici do petka kiša i otopljenje, za vikend osetno hladnije.</title>
       <link>https://suboticke.rs/vreme-subotica-kisa-zahladjenje-prognoza-novembar/</link>
@@ -205,22 +211,16 @@
       <pubDate>Fri, 16 Oct 2026 17:42:17 +0200</pubDate>
     </item>
     <item>
-      <title>Ispiranje vodovodne mreže u osam naselja od 20. oktobra: Mogući slabiji pritisak i zamućenje vode</title>
-      <link>https://suboticke.rs/ispiranje-vodovodne-mreze-raspored-oktobar-novembar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/ispiranje-vodovodne-mreze-raspored-oktobar-novembar-2026/</guid>
-      <pubDate>Fri, 16 Oct 2026 17:27:51 +0200</pubDate>
+      <title>Pošta Srbije: Za isplatu penzija 10. novembra dobili smo samo 37 odsto tražene gotovine</title>
+      <link>https://suboticke.rs/posta-srbije-isplata-penzija-nedostatak-gotovine/</link>
+      <guid isPermaLink="true">https://suboticke.rs/posta-srbije-isplata-penzija-nedostatak-gotovine/</guid>
+      <pubDate>Wed, 11 Nov 2026 18:49:03 +0100</pubDate>
     </item>
     <item>
-      <title>Drobnjak odlučio u poslednjim sekundama: Spartak savladao Šole 75:73</title>
-      <link>https://suboticke.rs/spartak-sole-75-73-drobnjak-liga-sampiona/</link>
-      <guid isPermaLink="true">https://suboticke.rs/spartak-sole-75-73-drobnjak-liga-sampiona/</guid>
-      <pubDate>Tue, 10 Nov 2026 22:30:05 +0100</pubDate>
-    </item>
-    <item>
-      <title>BizKod: Tri studenta, 12 sati i poslovni problem koji treba rešiti. AI je obavezan.</title>
-      <link>https://suboticke.rs/bizkod-2026-subotica-prijave-studenti-ai/</link>
-      <guid isPermaLink="true">https://suboticke.rs/bizkod-2026-subotica-prijave-studenti-ai/</guid>
-      <pubDate>Tue, 10 Nov 2026 18:11:43 +0100</pubDate>
+      <title>Rambo Amadeus u Subotici: Kada dete uplati prvi tiket, problem je već ušao u kuću</title>
+      <link>https://suboticke.rs/rambo-amadeus-subotica-kladionice-mladi-tribina/</link>
+      <guid isPermaLink="true">https://suboticke.rs/rambo-amadeus-subotica-kladionice-mladi-tribina/</guid>
+      <pubDate>Wed, 11 Nov 2026 12:29:54 +0100</pubDate>
     </item>
   </channel>
 </rss>

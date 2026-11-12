@@ -5,7 +5,13 @@
     <link>https://suboticke.rs/tema/srbija/vesti/</link>
     <description>Новости: Subotičke — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Wed, 11 Nov 2026 09:46:46 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 09:15:36 +0100</lastBuildDate>
+    <item>
+      <title>Subotica danas: Kiša do 15 stepeni i isključenja struje</title>
+      <link>https://suboticke.rs/servisne-informacije-subotica-12-novembar-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/servisne-informacije-subotica-12-novembar-2026/</guid>
+      <pubDate>Thu, 12 Nov 2026 09:15:36 +0100</pubDate>
+    </item>
     <item>
       <title>Komšije ponovo uzimaju alat u ruke: U subotu uređuju trafostanice u MZ Ker</title>
       <link>https://suboticke.rs/radna-akcija-uredjenje-trafostanica-mz-ker-subotica/</link>
@@ -205,22 +211,16 @@
       <pubDate>Tue, 03 Nov 2026 15:23:53 +0100</pubDate>
     </item>
     <item>
-      <title>Meet and Eat: Ukusi iz cele Srbije i kuvano vino za stipendije mladima</title>
-      <link>https://suboticke.rs/meet-eat-subotica-gastrofestival-stipendije-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/meet-eat-subotica-gastrofestival-stipendije-2026/</guid>
-      <pubDate>Tue, 03 Nov 2026 14:23:37 +0100</pubDate>
+      <title>Pošta Srbije: Za isplatu penzija 10. novembra dobili smo samo 37 odsto tražene gotovine</title>
+      <link>https://suboticke.rs/posta-srbije-isplata-penzija-nedostatak-gotovine/</link>
+      <guid isPermaLink="true">https://suboticke.rs/posta-srbije-isplata-penzija-nedostatak-gotovine/</guid>
+      <pubDate>Wed, 11 Nov 2026 18:49:03 +0100</pubDate>
     </item>
     <item>
-      <title>Tri glumca, tri festivala i pet nagrada za „Trilogiju Lehman“</title>
-      <link>https://suboticke.rs/trilogija-lehman-pet-nagrada-tri-festivala/</link>
-      <guid isPermaLink="true">https://suboticke.rs/trilogija-lehman-pet-nagrada-tri-festivala/</guid>
-      <pubDate>Wed, 11 Nov 2026 09:37:45 +0100</pubDate>
-    </item>
-    <item>
-      <title>Kuda danas u Subotici: Šoletova priča u „Klari i Rosi“ i filmski program za praznično popodne</title>
-      <link>https://suboticke.rs/kuda-danas-subotica-11-novembar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/kuda-danas-subotica-11-novembar-2026/</guid>
-      <pubDate>Wed, 11 Nov 2026 09:20:30 +0100</pubDate>
+      <title>Rambo Amadeus u Subotici: Kada dete uplati prvi tiket, problem je već ušao u kuću</title>
+      <link>https://suboticke.rs/rambo-amadeus-subotica-kladionice-mladi-tribina/</link>
+      <guid isPermaLink="true">https://suboticke.rs/rambo-amadeus-subotica-kladionice-mladi-tribina/</guid>
+      <pubDate>Wed, 11 Nov 2026 12:29:54 +0100</pubDate>
     </item>
   </channel>
 </rss>
