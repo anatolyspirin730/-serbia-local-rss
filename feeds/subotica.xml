@@ -5,7 +5,13 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Fri, 13 Nov 2026 08:33:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 09:45:00 +0100</lastBuildDate>
+    <item>
+      <title>Dijabetes često godinama bez simptoma: Svaki treći novooboleli već ima komplikacije</title>
+      <link>https://www.subotica.com/vesti/dijabetes-cesto-godinama-bez-simptoma-svaki-treci-novooboleli-vec-ima-komplikacije-id55443.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/dijabetes-cesto-godinama-bez-simptoma-svaki-treci-novooboleli-vec-ima-komplikacije-id55443.html</guid>
+      <pubDate>Fri, 13 Nov 2026 09:26:00 +0100</pubDate>
+    </item>
     <item>
       <title>Subotica obeležava 108 godina od oslobođenja u Prvom svetskom ratu</title>
       <link>https://www.subotica.com/vesti/subotica-obelezava-108-godina-od-oslobodjenja-u-prvom-svetskom-ratu-id55440.html</link>
@@ -19,10 +25,10 @@
       <pubDate>Fri, 13 Nov 2026 08:11:00 +0100</pubDate>
     </item>
     <item>
-      <title>Nemačko-austrijska tradicija sa srpskim srcem: Subotica dobila svoj karneval</title>
-      <link>https://www.subotica.com/vesti/nemacko-austrijska-tradicija-sa-srpskim-srcem-subotica-dobila-svoj-karneval-id55436.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/nemacko-austrijska-tradicija-sa-srpskim-srcem-subotica-dobila-svoj-karneval-id55436.html</guid>
-      <pubDate>Thu, 12 Nov 2026 14:44:00 +0100</pubDate>
+      <title>„Autumn Leaves“: Džez i bosa nova uz svetlost sveća u subotičkoj sinagogi</title>
+      <link>https://www.subotica.com/vesti/autumn-leaves-dzez-i-bosa-nova-uz-svetlost-sveca-u-subotickoj-sinagogi-id55316.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/autumn-leaves-dzez-i-bosa-nova-uz-svetlost-sveca-u-subotickoj-sinagogi-id55316.html</guid>
+      <pubDate>Fri, 13 Nov 2026 09:45:00 +0100</pubDate>
     </item>
     <item>
       <title>Od dečaka koji je pravio modele aviona do instruktora koji je obučavao pilote širom sveta</title>
@@ -35,6 +41,12 @@
       <link>https://www.subotica.com/vesti/da-niko-ne-bude-zaboravljen-solidarnost-obezbedila-pakete-pomoci-za-najugrozenije-suboticane-id55435.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/da-niko-ne-bude-zaboravljen-solidarnost-obezbedila-pakete-pomoci-za-najugrozenije-suboticane-id55435.html</guid>
       <pubDate>Thu, 12 Nov 2026 14:41:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Nemačko-austrijska tradicija sa srpskim srcem: Subotica dobila svoj karneval</title>
+      <link>https://www.subotica.com/vesti/nemacko-austrijska-tradicija-sa-srpskim-srcem-subotica-dobila-svoj-karneval-id55436.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/nemacko-austrijska-tradicija-sa-srpskim-srcem-subotica-dobila-svoj-karneval-id55436.html</guid>
+      <pubDate>Thu, 12 Nov 2026 14:44:00 +0100</pubDate>
     </item>
     <item>
       <title>U petak pomen i polaganje venaca na Puškinovom trgu povodom 108 godina od oslobođenja Subotice</title>
@@ -137,18 +149,6 @@
       <link>https://www.subotica.com/vesti/konjicki-sport-zapazeni-rezultati-subotickih-takmicarki-u-dresurnom-jahanju-id55412.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/konjicki-sport-zapazeni-rezultati-subotickih-takmicarki-u-dresurnom-jahanju-id55412.html</guid>
       <pubDate>Tue, 10 Nov 2026 09:30:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Fudbal (Ž): Spartak bolji od Mašinca u Nišu (4:1)</title>
-      <link>https://www.subotica.com/vesti/fudbal-z-spartak-bolji-od-masinca-u-nisu-4-1-id55420.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/fudbal-z-spartak-bolji-od-masinca-u-nisu-4-1-id55420.html</guid>
-      <pubDate>Tue, 10 Nov 2026 09:32:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Karate: „Spartak Enpi“ osvojio 33 medalje na dva turnira u Odžacima i Jagodini</title>
-      <link>https://www.subotica.com/vesti/karate-spartak-enpi-osvojio-33-medalje-na-dva-turnira-u-odzacima-i-jagodini-id55419.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/karate-spartak-enpi-osvojio-33-medalje-na-dva-turnira-u-odzacima-i-jagodini-id55419.html</guid>
-      <pubDate>Tue, 10 Nov 2026 09:31:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
