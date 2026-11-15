@@ -19,17 +19,21 @@
   },
   {
     "id": "urbanizamsu",
-    "status": "needs_custom_parser",
-    "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated",
-    "next_action": "site-specific parser or official alternate source required"
+    "status": "native_feed_verified",
+    "url": "https://urbanizamsu.rs/feed/",
+    "feed": {
+      "format": "rss",
+      "items": 7
+    }
   },
   {
     "id": "tourism-subotica",
-    "status": "needs_custom_parser",
-    "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated",
-    "next_action": "site-specific parser or official alternate source required"
+    "status": "native_feed_verified",
+    "url": "https://visitsubotica.rs/feed/",
+    "feed": {
+      "format": "rss",
+      "items": 10
+    }
   },
   {
     "id": "vodovodsu",
@@ -84,10 +88,12 @@
   },
   {
     "id": "park-palic",
-    "status": "needs_custom_parser",
-    "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated",
-    "next_action": "site-specific parser or official alternate source required"
+    "status": "native_feed_verified",
+    "url": "https://park-palic.rs/feed/",
+    "feed": {
+      "format": "rss",
+      "items": 10
+    }
   },
   {
     "id": "deponija",
@@ -97,12 +103,9 @@
   },
   {
     "id": "supijace",
-    "status": "native_feed_verified",
-    "url": "https://supijace.co.rs/feed/",
-    "feed": {
-      "format": "rss",
-      "items": 10
-    }
+    "status": "fetch_failed",
+    "url": "https://supijace.co.rs/",
+    "error": "HTTPSConnectionPool(host='supijace.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='supijace.co.rs', port=443) at 0x7fabc9763a90>, 'Connection to supijace.co.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "stadion",
@@ -120,10 +123,12 @@
   },
   {
     "id": "dimnicar",
-    "status": "needs_custom_parser",
-    "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated",
-    "next_action": "site-specific parser or official alternate source required"
+    "status": "native_feed_verified",
+    "url": "https://dimnicar.co.rs/index.php?format=feed&type=rss",
+    "feed": {
+      "format": "rss",
+      "items": 4
+    }
   },
   {
     "id": "subotica-com",
@@ -136,10 +141,12 @@
   },
   {
     "id": "subotica-info",
-    "status": "http_error",
-    "http_status": 403,
-    "url": "https://www.subotica.info/",
-    "error": "403 Client Error: Forbidden for url: https://www.subotica.info/"
+    "status": "native_feed_verified",
+    "url": "https://www.subotica.info/rss.xml",
+    "feed": {
+      "format": "rss",
+      "items": 10
+    }
   },
   {
     "id": "maglocistac-subotica",
@@ -164,8 +171,7 @@
     "feed": {
       "format": "rss",
       "items": 50
-    },
-    "discovery": "direct_feed_probe"
+    }
   },
   {
     "id": "magyarszo-szabadka",
@@ -188,8 +194,7 @@
     "feed": {
       "format": "rss",
       "items": 100
-    },
-    "discovery": "direct_feed_probe"
+    }
   },
   {
     "id": "magyarszo-tag",
