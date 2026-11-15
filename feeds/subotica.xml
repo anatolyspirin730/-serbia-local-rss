@@ -5,7 +5,7 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Sun, 15 Nov 2026 13:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 16:00:00 +0100</lastBuildDate>
     <item>
       <title>Četvrt veka „Iskona“: Jubilarni koncert pred prepunom Velikom većnicom</title>
       <link>https://www.subotica.com/vesti/cetvrt-veka-iskona-jubilarni-koncert-pred-prepunom-velikom-vecnicom-id55450.html</link>
@@ -23,6 +23,18 @@
       <link>https://www.subotica.com/vesti/izmena-trase-autobusa-na-liniji-16-sutra-zbog-radova-u-partizanskih-baza-id55448.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/izmena-trase-autobusa-na-liniji-16-sutra-zbog-radova-u-partizanskih-baza-id55448.html</guid>
       <pubDate>Sun, 15 Nov 2026 13:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Kontejneri za kabasti otpad sledeće nedelje u Kertvarošu, Železničkom naselju i Dudovoj šumi</title>
+      <link>https://www.subotica.com/vesti/kontejneri-za-kabasti-otpad-sledece-nedelje-u-kertvarosu-zeleznickom-naselju-i-dudovoj-sumi-id55444.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/kontejneri-za-kabasti-otpad-sledece-nedelje-u-kertvarosu-zeleznickom-naselju-i-dudovoj-sumi-id55444.html</guid>
+      <pubDate>Sun, 15 Nov 2026 15:45:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Isključenja struje za ponedeljak (16. novembar)</title>
+      <link>https://www.subotica.com/vesti/iskljucenja-struje-za-ponedeljak-16-novembar-id55442.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/iskljucenja-struje-za-ponedeljak-16-novembar-id55442.html</guid>
+      <pubDate>Sun, 15 Nov 2026 16:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Sjajna atmosfera, osmesi i dobro raspoloženje, uz izuzetnu posećenost, obeležili 18. Festival mlade rakije u Ljutovu</title>
@@ -137,18 +149,6 @@
       <link>https://www.subotica.com/vesti/18-festival-mlade-rakije-u-ljutovu-uz-bogat-program-i-veliki-broj-izlagaca-id55423.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/18-festival-mlade-rakije-u-ljutovu-uz-bogat-program-i-veliki-broj-izlagaca-id55423.html</guid>
       <pubDate>Wed, 11 Nov 2026 11:32:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>BizKod se vratio, prijave otvorene do 25. novembra</title>
-      <link>https://www.subotica.com/vesti/bizkod-se-vratio-prijave-otvorene-do-25-novembra-id55431.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/bizkod-se-vratio-prijave-otvorene-do-25-novembra-id55431.html</guid>
-      <pubDate>Wed, 11 Nov 2026 12:18:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Isključenja struje za četvrtak (12. novembar)</title>
-      <link>https://www.subotica.com/vesti/iskljucenja-struje-za-cetvrtak-12-novembar-id55425.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/iskljucenja-struje-za-cetvrtak-12-novembar-id55425.html</guid>
-      <pubDate>Wed, 11 Nov 2026 16:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
