@@ -192,12 +192,10 @@
   },
   {
     "id": "dnevnik-subotica",
-    "status": "native_feed_verified",
-    "url": "https://www.dnevnik.rs/rss.xml",
-    "feed": {
-      "format": "rss",
-      "items": 100
-    }
+    "status": "http_error",
+    "http_status": 403,
+    "url": "https://www.dnevnik.rs/",
+    "error": "403 Client Error: Forbidden for url: https://www.dnevnik.rs/"
   },
   {
     "id": "magyarszo-tag",
