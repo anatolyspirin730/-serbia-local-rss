@@ -103,12 +103,9 @@
   },
   {
     "id": "supijace",
-    "status": "native_feed_verified",
-    "url": "https://supijace.co.rs/feed/",
-    "feed": {
-      "format": "rss",
-      "items": 10
-    }
+    "status": "fetch_failed",
+    "url": "https://supijace.co.rs/",
+    "error": "HTTPSConnectionPool(host='supijace.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='supijace.co.rs', port=443) at 0x79e355dbf4d0>, 'Connection to supijace.co.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "stadion",
@@ -153,10 +150,13 @@
   },
   {
     "id": "maglocistac-subotica",
-    "status": "http_error",
-    "http_status": 403,
-    "url": "https://www.maglocistac.rs/",
-    "error": "403 Client Error: Forbidden for url: https://www.maglocistac.rs/"
+    "status": "native_feed_verified",
+    "url": "https://www.maglocistac.rs/feed",
+    "feed": {
+      "format": "rss",
+      "items": 30
+    },
+    "discovery": "direct_feed_probe"
   },
   {
     "id": "suboticke",
@@ -208,10 +208,13 @@
   },
   {
     "id": "maglocistac-all",
-    "status": "http_error",
-    "http_status": 403,
-    "url": "https://www.maglocistac.rs/",
-    "error": "403 Client Error: Forbidden for url: https://www.maglocistac.rs/"
+    "status": "native_feed_verified",
+    "url": "https://www.maglocistac.rs/feed",
+    "feed": {
+      "format": "rss",
+      "items": 30
+    },
+    "discovery": "direct_feed_probe"
   },
   {
     "id": "palic-zoo",
