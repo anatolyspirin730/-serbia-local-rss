@@ -5,7 +5,13 @@
     <link>https://suboticke.rs/tema/srbija/vesti/</link>
     <description>Новости: Subotičke — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Tue, 17 Nov 2026 09:05:10 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 09:45:23 +0100</lastBuildDate>
+    <item>
+      <title>Rupe u Zorkinoj ulici svakodnevni problem, kiše dodatno pogoršavaju stanje</title>
+      <link>https://suboticke.rs/zorkina-ulica-subotica-rupe-rekonstrukcija/</link>
+      <guid isPermaLink="true">https://suboticke.rs/zorkina-ulica-subotica-rupe-rekonstrukcija/</guid>
+      <pubDate>Tue, 17 Nov 2026 09:45:23 +0100</pubDate>
+    </item>
     <item>
       <title>Subotica u utorak: Toplije uz jači vetar, uveče stiže kiša</title>
       <link>https://suboticke.rs/servisne-informacije-subotica-17-novembar-2026/</link>
@@ -205,16 +211,10 @@
       <pubDate>Fri, 06 Nov 2026 21:33:42 +0100</pubDate>
     </item>
     <item>
-      <title>Učenici OŠ „Ivan Milutinović“ od ponedeljka u Politehničkoj i Medicinskoj školi</title>
-      <link>https://suboticke.rs/ivan-milutinovic-subotica-nastava-druge-skole/</link>
-      <guid isPermaLink="true">https://suboticke.rs/ivan-milutinovic-subotica-nastava-druge-skole/</guid>
-      <pubDate>Fri, 06 Nov 2026 11:39:34 +0100</pubDate>
-    </item>
-    <item>
-      <title>Loš početak skupo koštao Spartak: Dubai slavio sa 93:75</title>
-      <link>https://suboticke.rs/spartak-dubai-93-75-aba-liga/</link>
-      <guid isPermaLink="true">https://suboticke.rs/spartak-dubai-93-75-aba-liga/</guid>
-      <pubDate>Sun, 15 Nov 2026 15:49:21 +0100</pubDate>
+      <title>Kuda u utorak: Urban, Nađ i muzika u Staroj piceriji</title>
+      <link>https://suboticke.rs/kuda-u-utorak-urban-nadj-i-muzika-u-staroj-piceriji/</link>
+      <guid isPermaLink="true">https://suboticke.rs/kuda-u-utorak-urban-nadj-i-muzika-u-staroj-piceriji/</guid>
+      <pubDate>Tue, 17 Nov 2026 09:13:50 +0100</pubDate>
     </item>
   </channel>
 </rss>
