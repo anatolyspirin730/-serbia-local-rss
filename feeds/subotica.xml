@@ -5,7 +5,13 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Tue, 17 Nov 2026 12:47:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 09:03:00 +0100</lastBuildDate>
+    <item>
+      <title>Izložba ekslibrisa u „Nepkeru“: Mala grafička dela velikog umetničkog izraza</title>
+      <link>https://www.subotica.com/vesti/izlozba-ekslibrisa-u-nepkeru-mala-graficka-dela-velikog-umetnickog-izraza-id55475.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/izlozba-ekslibrisa-u-nepkeru-mala-graficka-dela-velikog-umetnickog-izraza-id55475.html</guid>
+      <pubDate>Wed, 18 Nov 2026 09:03:00 +0100</pubDate>
+    </item>
     <item>
       <title>Kozomora: Sudbina akva-parka i bolja koordinacija uprave prvi prioriteti</title>
       <link>https://www.subotica.com/vesti/kozomora-sudbina-akva-parka-i-bolja-koordinacija-uprave-prvi-prioriteti-id55471.html</link>
@@ -143,12 +149,6 @@
       <link>https://www.subotica.com/vesti/kontejneri-za-kabasti-otpad-sledece-nedelje-u-kertvarosu-zeleznickom-naselju-i-dudovoj-sumi-id55444.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/kontejneri-za-kabasti-otpad-sledece-nedelje-u-kertvarosu-zeleznickom-naselju-i-dudovoj-sumi-id55444.html</guid>
       <pubDate>Sun, 15 Nov 2026 15:45:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Isključenja struje za ponedeljak (16. novembar)</title>
-      <link>https://www.subotica.com/vesti/iskljucenja-struje-za-ponedeljak-16-novembar-id55442.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/iskljucenja-struje-za-ponedeljak-16-novembar-id55442.html</guid>
-      <pubDate>Sun, 15 Nov 2026 16:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
