@@ -19,17 +19,21 @@
   },
   {
     "id": "urbanizamsu",
-    "status": "needs_custom_parser",
-    "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated",
-    "next_action": "site-specific parser or official alternate source required"
+    "status": "native_feed_verified",
+    "url": "https://urbanizamsu.rs/feed/",
+    "feed": {
+      "format": "rss",
+      "items": 7
+    }
   },
   {
     "id": "tourism-subotica",
-    "status": "needs_custom_parser",
-    "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated",
-    "next_action": "site-specific parser or official alternate source required"
+    "status": "native_feed_verified",
+    "url": "https://visitsubotica.rs/feed/",
+    "feed": {
+      "format": "rss",
+      "items": 10
+    }
   },
   {
     "id": "vodovodsu",
@@ -53,12 +57,9 @@
   },
   {
     "id": "toplana",
-    "status": "native_feed_verified",
-    "url": "https://toplanasubotica.co.rs/feed/",
-    "feed": {
-      "format": "rss",
-      "items": 10
-    }
+    "status": "fetch_failed",
+    "url": "https://toplanasubotica.co.rs/",
+    "error": "HTTPSConnectionPool(host='toplanasubotica.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='toplanasubotica.co.rs', port=443) at 0x7d8448e288d0>, 'Connection to toplanasubotica.co.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "suboticagas",
@@ -84,10 +85,12 @@
   },
   {
     "id": "park-palic",
-    "status": "needs_custom_parser",
-    "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated",
-    "next_action": "site-specific parser or official alternate source required"
+    "status": "native_feed_verified",
+    "url": "https://park-palic.rs/feed/",
+    "feed": {
+      "format": "rss",
+      "items": 10
+    }
   },
   {
     "id": "deponija",
@@ -106,9 +109,10 @@
   },
   {
     "id": "stadion",
-    "status": "fetch_failed",
+    "status": "http_error",
+    "http_status": 403,
     "url": "https://jkp-stadion.rs/",
-    "error": "HTTPSConnectionPool(host='jkp-stadion.rs', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='jkp-stadion.rs', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+    "error": "403 Client Error: Forbidden for url: https://jkp-stadion.rs/"
   },
   {
     "id": "pogrebno",
@@ -119,10 +123,12 @@
   },
   {
     "id": "dimnicar",
-    "status": "needs_custom_parser",
-    "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated",
-    "next_action": "site-specific parser or official alternate source required"
+    "status": "native_feed_verified",
+    "url": "https://dimnicar.co.rs/index.php?format=feed&type=rss",
+    "feed": {
+      "format": "rss",
+      "items": 4
+    }
   },
   {
     "id": "subotica-com",
@@ -135,10 +141,9 @@
   },
   {
     "id": "subotica-info",
-    "status": "http_error",
-    "http_status": 521,
+    "status": "fetch_failed",
     "url": "https://www.subotica.info/",
-    "error": "521 Server Error: <none> for url: https://www.subotica.info/"
+    "error": "HTTPSConnectionPool(host='www.subotica.info', port=443): Read timed out. (read timeout=20)"
   },
   {
     "id": "maglocistac-subotica",
