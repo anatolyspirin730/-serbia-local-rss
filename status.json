@@ -59,7 +59,7 @@
     "id": "toplana",
     "status": "fetch_failed",
     "url": "https://toplanasubotica.co.rs/",
-    "error": "HTTPSConnectionPool(host='toplanasubotica.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='toplanasubotica.co.rs', port=443) at 0x78f495141290>, 'Connection to toplanasubotica.co.rs timed out. (connect timeout=8)'))"
+    "error": "HTTPSConnectionPool(host='toplanasubotica.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='toplanasubotica.co.rs', port=443) at 0x7d7ddc688e90>, 'Connection to toplanasubotica.co.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "suboticagas",
@@ -164,7 +164,7 @@
     "url": "https://anatolyspirin730.github.io/-serbia-local-rss/feeds/suboticke-vesti.xml",
     "feed": {
       "format": "rss",
-      "items": 35
+      "items": 36
     }
   },
   {
