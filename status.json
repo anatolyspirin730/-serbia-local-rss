@@ -59,7 +59,7 @@
     "id": "toplana",
     "status": "fetch_failed",
     "url": "https://toplanasubotica.co.rs/",
-    "error": "HTTPSConnectionPool(host='toplanasubotica.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='toplanasubotica.co.rs', port=443) at 0x7d8448e288d0>, 'Connection to toplanasubotica.co.rs timed out. (connect timeout=8)'))"
+    "error": "HTTPSConnectionPool(host='toplanasubotica.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='toplanasubotica.co.rs', port=443) at 0x7b08f4854750>, 'Connection to toplanasubotica.co.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "suboticagas",
@@ -141,9 +141,12 @@
   },
   {
     "id": "subotica-info",
-    "status": "fetch_failed",
-    "url": "https://www.subotica.info/",
-    "error": "HTTPSConnectionPool(host='www.subotica.info', port=443): Read timed out. (read timeout=20)"
+    "status": "native_feed_verified",
+    "url": "https://www.subotica.info/rss.xml",
+    "feed": {
+      "format": "rss",
+      "items": 10
+    }
   },
   {
     "id": "maglocistac-subotica",
