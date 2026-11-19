@@ -5,7 +5,13 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Wed, 18 Nov 2026 12:38:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 08:33:00 +0100</lastBuildDate>
+    <item>
+      <title>Prirodno detinjstvo kao ključ zdravog razvoja deteta</title>
+      <link>https://www.subotica.com/vesti/prirodno-detinjstvo-kao-kljuc-zdravog-razvoja-deteta-id55482.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/prirodno-detinjstvo-kao-kljuc-zdravog-razvoja-deteta-id55482.html</guid>
+      <pubDate>Thu, 19 Nov 2026 08:33:00 +0100</pubDate>
+    </item>
     <item>
       <title>Novi plan za kasarnu Kosta Nađ: Više spratova, zelenih površina, podzemne garaže i novi stambeni sadržaji</title>
       <link>https://www.subotica.com/vesti/novi-plan-za-kasarnu-kosta-nadj-vise-spratova-zelenih-povrsina-podzemne-garaze-i-novi-stambeni-sadrzaji-id55478.html</link>
@@ -143,12 +149,6 @@
       <link>https://www.subotica.com/vesti/dzudo-srebrna-medalja-za-bogdana-srdica-id55456.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/dzudo-srebrna-medalja-za-bogdana-srdica-id55456.html</guid>
       <pubDate>Mon, 16 Nov 2026 08:32:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Rvanje: Spartak bolji od Potisja, dve medalje osvojene u Slovačkoj</title>
-      <link>https://www.subotica.com/vesti/rvanje-spartak-bolji-od-potisja-dve-medalje-osvojene-u-slovackoj-id55454.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/rvanje-spartak-bolji-od-potisja-dve-medalje-osvojene-u-slovackoj-id55454.html</guid>
-      <pubDate>Mon, 16 Nov 2026 08:13:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
