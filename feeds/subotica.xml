@@ -5,7 +5,13 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Thu, 19 Nov 2026 12:13:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 13:11:00 +0100</lastBuildDate>
+    <item>
+      <title>Konstituisana nova Skupština Srbije, Aleksandar Čupić novi predsednik parlamenta</title>
+      <link>https://www.subotica.com/vesti/konstituisana-nova-skupstina-srbije-aleksandar-cupic-novi-predsednik-parlamenta-id55487.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/konstituisana-nova-skupstina-srbije-aleksandar-cupic-novi-predsednik-parlamenta-id55487.html</guid>
+      <pubDate>Thu, 19 Nov 2026 13:11:00 +0100</pubDate>
+    </item>
     <item>
       <title>U Tokiju počela izgradnja novih parking mesta, sledi i uređenje parka</title>
       <link>https://www.subotica.com/vesti/u-tokiju-pocela-izgradnja-novih-parking-mesta-sledi-i-uredjenje-parka-id55484.html</link>
@@ -143,12 +149,6 @@
       <link>https://www.subotica.com/vesti/odbojka-ivankov-predvodio-spartak-do-trece-pobede-u-super-ligi-id55459.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/odbojka-ivankov-predvodio-spartak-do-trece-pobede-u-super-ligi-id55459.html</guid>
       <pubDate>Mon, 16 Nov 2026 12:14:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Dr Ranko Rajović na Paliću: Kako da deci omogućimo zdravije i prirodnije odrastanje?</title>
-      <link>https://www.subotica.com/vesti/dr-ranko-rajovic-na-palicu-kako-da-deci-omogucimo-zdravije-i-prirodnije-odrastanje-id55451.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/dr-ranko-rajovic-na-palicu-kako-da-deci-omogucimo-zdravije-i-prirodnije-odrastanje-id55451.html</guid>
-      <pubDate>Mon, 16 Nov 2026 10:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>

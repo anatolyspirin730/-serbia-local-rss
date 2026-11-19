@@ -5,7 +5,13 @@
     <link>https://suboticke.rs/tema/srbija/vesti/</link>
     <description>Новости: Subotičke — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Thu, 19 Nov 2026 12:48:26 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 13:46:17 +0100</lastBuildDate>
+    <item>
+      <title>Uhapšen osumnjičeni za dve teške krađe u Čantaviru</title>
+      <link>https://suboticke.rs/dve-teske-kradje-cantavir-hapsenje/</link>
+      <guid isPermaLink="true">https://suboticke.rs/dve-teske-kradje-cantavir-hapsenje/</guid>
+      <pubDate>Thu, 19 Nov 2026 13:46:17 +0100</pubDate>
+    </item>
     <item>
       <title>U nedelju se ponavlja glasanje za bunjevački i mađarski savet na tri mesta u Subotici</title>
       <link>https://suboticke.rs/ponovljeno-glasanje-nacionalni-saveti-subotica/</link>
@@ -205,22 +211,10 @@
       <pubDate>Mon, 09 Nov 2026 14:10:35 +0100</pubDate>
     </item>
     <item>
-      <title>NLS: Antelj: Po kom pravnom osnovu je supruga bivšeg gradonačelnika stekla pravo korišćenja hotela Park?</title>
-      <link>https://suboticke.rs/antelj-hotel-park-palic-pravo-koriscenja-parking/</link>
-      <guid isPermaLink="true">https://suboticke.rs/antelj-hotel-park-palic-pravo-koriscenja-parking/</guid>
-      <pubDate>Mon, 09 Nov 2026 13:51:19 +0100</pubDate>
-    </item>
-    <item>
       <title>Oko 15.000 knjiga u Kosovskoj: „Sve i svašta“ u subotu otvara sajam</title>
       <link>https://suboticke.rs/sajam-knjiga-subotica-sve-i-svasta/</link>
       <guid isPermaLink="true">https://suboticke.rs/sajam-knjiga-subotica-sve-i-svasta/</guid>
       <pubDate>Thu, 19 Nov 2026 12:39:42 +0100</pubDate>
-    </item>
-    <item>
-      <title>Mobilni mamograf je na Segedinskom putu, a termini se zakazuju i vikendom</title>
-      <link>https://suboticke.rs/besplatna-mamografija-subotica-zakazivanje/</link>
-      <guid isPermaLink="true">https://suboticke.rs/besplatna-mamografija-subotica-zakazivanje/</guid>
-      <pubDate>Thu, 19 Nov 2026 12:05:20 +0100</pubDate>
     </item>
   </channel>
 </rss>
