@@ -5,7 +5,13 @@
     <link>https://suboticke.rs/tema/srbija/vesti/</link>
     <description>Новости: Subotičke — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Thu, 19 Nov 2026 09:06:39 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 10:11:21 +0100</lastBuildDate>
+    <item>
+      <title>Subotički NPS poručio SVM-u da glas za studentskog kandidata ne briše odgovornost za vlast u gradu</title>
+      <link>https://suboticke.rs/nps-subotica-svm-studentska-lista-vodovod/</link>
+      <guid isPermaLink="true">https://suboticke.rs/nps-subotica-svm-studentska-lista-vodovod/</guid>
+      <pubDate>Thu, 19 Nov 2026 10:11:21 +0100</pubDate>
+    </item>
     <item>
       <title>U Subotici danas do 15 stepeni, popodne kiša i jak vetar</title>
       <link>https://suboticke.rs/servisne-informacije-subotica-19-novembar-2026/</link>
@@ -205,22 +211,16 @@
       <pubDate>Mon, 09 Nov 2026 09:11:46 +0100</pubDate>
     </item>
     <item>
-      <title>Danas hladno jutro, tokom dana do 10 stepeni</title>
-      <link>https://suboticke.rs/servisne-informacije-subotica-8-novembar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/servisne-informacije-subotica-8-novembar-2026/</guid>
-      <pubDate>Sun, 08 Nov 2026 09:17:49 +0100</pubDate>
+      <title>Danijela Štajnfeld večeras u Subotici uz dve projekcije filma „Zaceli me“</title>
+      <link>https://suboticke.rs/danijela-stajnfeld-zaceli-me-subotica/</link>
+      <guid isPermaLink="true">https://suboticke.rs/danijela-stajnfeld-zaceli-me-subotica/</guid>
+      <pubDate>Thu, 19 Nov 2026 09:29:21 +0100</pubDate>
     </item>
     <item>
-      <title>Indijski film „Štucanje“ sutra na Paliću, ulaz besplatan</title>
-      <link>https://suboticke.rs/indijski-film-stucanje-palic/</link>
-      <guid isPermaLink="true">https://suboticke.rs/indijski-film-stucanje-palic/</guid>
-      <pubDate>Wed, 18 Nov 2026 15:00:12 +0100</pubDate>
-    </item>
-    <item>
-      <title>Zgrada Gradske biblioteke u Subotici slavi 130 godina</title>
-      <link>https://suboticke.rs/nacionalna-kasina-subotica-130-godina/</link>
-      <guid isPermaLink="true">https://suboticke.rs/nacionalna-kasina-subotica-130-godina/</guid>
-      <pubDate>Wed, 18 Nov 2026 14:15:39 +0100</pubDate>
+      <title>Danas: Džez, film i sevdah</title>
+      <link>https://suboticke.rs/desavanja-subotica-palic-19-novembar-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/desavanja-subotica-palic-19-novembar-2026/</guid>
+      <pubDate>Thu, 19 Nov 2026 09:21:20 +0100</pubDate>
     </item>
   </channel>
 </rss>

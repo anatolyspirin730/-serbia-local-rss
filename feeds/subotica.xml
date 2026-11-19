@@ -5,7 +5,13 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Thu, 19 Nov 2026 08:33:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 10:30:00 +0100</lastBuildDate>
+    <item>
+      <title>Deo Palića u petak bez vode zbog radova na vodovodnoj mreži</title>
+      <link>https://www.subotica.com/vesti/deo-palica-u-petak-bez-vode-zbog-radova-na-vodovodnoj-mrezi-id55481.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/deo-palica-u-petak-bez-vode-zbog-radova-na-vodovodnoj-mrezi-id55481.html</guid>
+      <pubDate>Thu, 19 Nov 2026 10:30:00 +0100</pubDate>
+    </item>
     <item>
       <title>Prirodno detinjstvo kao ključ zdravog razvoja deteta</title>
       <link>https://www.subotica.com/vesti/prirodno-detinjstvo-kao-kljuc-zdravog-razvoja-deteta-id55482.html</link>
@@ -143,12 +149,6 @@
       <link>https://www.subotica.com/vesti/pojacana-kontrola-kamiona-i-autobusa-policija-posebno-proverava-prevoz-dece-id55460.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/pojacana-kontrola-kamiona-i-autobusa-policija-posebno-proverava-prevoz-dece-id55460.html</guid>
       <pubDate>Mon, 16 Nov 2026 12:19:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Džudo: Srebrna medalja za Bogdana Srdića</title>
-      <link>https://www.subotica.com/vesti/dzudo-srebrna-medalja-za-bogdana-srdica-id55456.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/dzudo-srebrna-medalja-za-bogdana-srdica-id55456.html</guid>
-      <pubDate>Mon, 16 Nov 2026 08:32:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
