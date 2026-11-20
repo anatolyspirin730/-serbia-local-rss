@@ -144,10 +144,12 @@
   },
   {
     "id": "subotica-info",
-    "status": "needs_custom_parser",
-    "empty_feeds": [],
-    "reason": "No trustworthy dated articles found; no feed fabricated",
-    "next_action": "site-specific parser or official alternate source required"
+    "status": "native_feed_verified",
+    "url": "https://www.subotica.info/rss.xml",
+    "feed": {
+      "format": "rss",
+      "items": 10
+    }
   },
   {
     "id": "maglocistac-subotica",
