@@ -5,7 +5,19 @@
     <link>https://suboticke.rs/tema/subotica/servisne-informacije/</link>
     <description>Новости: Subotičke — Servisne informacije</description>
     <language>sr</language>
-    <lastBuildDate>Fri, 20 Nov 2026 09:06:57 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 09:58:12 +0100</lastBuildDate>
+    <item>
+      <title>Linija 16 od danas ne saobraća Ulicom Partizanskih baza</title>
+      <link>https://suboticke.rs/subotica-izmena-trase-linije-16-partizanskih-baza/</link>
+      <guid isPermaLink="true">https://suboticke.rs/subotica-izmena-trase-linije-16-partizanskih-baza/</guid>
+      <pubDate>Fri, 20 Nov 2026 09:58:12 +0100</pubDate>
+    </item>
+    <item>
+      <title>Isplata naknade za nezaposlene danas, privremene naknade sutra</title>
+      <link>https://suboticke.rs/nsz-isplata-naknada-oktobar-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/nsz-isplata-naknada-oktobar-2026/</guid>
+      <pubDate>Fri, 20 Nov 2026 09:51:27 +0100</pubDate>
+    </item>
     <item>
       <title>Kiša od sredine dana, bez struje više ulica, deo Palića bez vode</title>
       <link>https://suboticke.rs/servisne-informacije-subotica-20-novembar-2026/</link>
@@ -199,28 +211,10 @@
       <pubDate>Mon, 26 Oct 2026 08:57:56 +0100</pubDate>
     </item>
     <item>
-      <title>Servisne informacije za 24. oktobar: Do 17 stepeni, obustava na Bikovačkom putu i izmene autobuskih trasa</title>
-      <link>https://suboticke.rs/servisne-informacije-subotica-24-oktobar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/servisne-informacije-subotica-24-oktobar-2026/</guid>
-      <pubDate>Sat, 24 Oct 2026 09:39:17 +0200</pubDate>
-    </item>
-    <item>
-      <title>Servisne informacije za 23. oktobar: Sunčano i sveže, izmene autobuskih trasa i obustave saobraćaja</title>
-      <link>https://suboticke.rs/servisne-informacije-subotica-23-oktobar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/servisne-informacije-subotica-23-oktobar-2026/</guid>
-      <pubDate>Fri, 23 Oct 2026 09:23:04 +0200</pubDate>
-    </item>
-    <item>
-      <title>Devet automobila u školskom dvorištu, „Ivan Sarić“ planira električno vozilo za obuku učenika</title>
-      <link>https://suboticke.rs/ivan-saric-elektricni-automobil-obuka-subotica/</link>
-      <guid isPermaLink="true">https://suboticke.rs/ivan-saric-elektricni-automobil-obuka-subotica/</guid>
-      <pubDate>Thu, 19 Nov 2026 15:21:10 +0100</pubDate>
-    </item>
-    <item>
-      <title>Znamenite Šapčanke na Vikipediji i filozofija Blaženke Despot u subotu u Subotici</title>
-      <link>https://suboticke.rs/zenske-studije-subotica-21-novembar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/zenske-studije-subotica-21-novembar-2026/</guid>
-      <pubDate>Thu, 19 Nov 2026 14:51:39 +0100</pubDate>
+      <title>Kuda danas u Subotici i na Paliću: Berza ploča, besplatna predstava i koncert Aleksandre Prijović</title>
+      <link>https://suboticke.rs/desavanja-subotica-palic-20-novembar-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/desavanja-subotica-palic-20-novembar-2026/</guid>
+      <pubDate>Fri, 20 Nov 2026 09:25:32 +0100</pubDate>
     </item>
   </channel>
 </rss>
