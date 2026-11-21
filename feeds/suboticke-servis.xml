@@ -5,7 +5,13 @@
     <link>https://suboticke.rs/tema/subotica/servisne-informacije/</link>
     <description>Новости: Subotičke — Servisne informacije</description>
     <language>sr</language>
-    <lastBuildDate>Fri, 20 Nov 2026 21:30:22 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 09:36:27 +0100</lastBuildDate>
+    <item>
+      <title>Subotica danas do 13 stepeni, u nedelju kiša, od utorka jutarnji minusi</title>
+      <link>https://suboticke.rs/vreme-subotica-prognoza-do-kraja-novembra-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/vreme-subotica-prognoza-do-kraja-novembra-2026/</guid>
+      <pubDate>Sat, 21 Nov 2026 09:27:57 +0100</pubDate>
+    </item>
     <item>
       <title>Partizanskih baza u subotu zatvorena od 7 do 17 časova, linija 16 menja trasu</title>
       <link>https://suboticke.rs/subotica-partizanskih-baza-obustava-saobracaja-linija-16/</link>
@@ -205,22 +211,10 @@
       <pubDate>Wed, 28 Oct 2026 09:11:00 +0100</pubDate>
     </item>
     <item>
-      <title>Servisne informacije za utorak, 27. oktobar: Isključenja struje, ispiranje vodovoda i izmene autobuskih trasa</title>
-      <link>https://suboticke.rs/subotica-servisne-informacije-27-oktobar-2026/</link>
-      <guid isPermaLink="true">https://suboticke.rs/subotica-servisne-informacije-27-oktobar-2026/</guid>
-      <pubDate>Tue, 27 Oct 2026 10:48:14 +0100</pubDate>
-    </item>
-    <item>
-      <title>Odbojkašice Spartaka poražene od Napretka u Dudovoj šumi</title>
-      <link>https://suboticke.rs/zok-spartak-napredak-037-rezultat/</link>
-      <guid isPermaLink="true">https://suboticke.rs/zok-spartak-napredak-037-rezultat/</guid>
-      <pubDate>Fri, 20 Nov 2026 20:49:52 +0100</pubDate>
-    </item>
-    <item>
-      <title>DRI kontrolisala poslovanje SVM: Pozitivno mišljenje o finansijama, ali nepravilnosti u poslovanju</title>
-      <link>https://suboticke.rs/dri-nepravilnosti-svm-finansiranje-donacije-naknade-2025/</link>
-      <guid isPermaLink="true">https://suboticke.rs/dri-nepravilnosti-svm-finansiranje-donacije-naknade-2025/</guid>
-      <pubDate>Fri, 20 Nov 2026 17:31:44 +0100</pubDate>
+      <title>Kuda danas u Subotici: Sajam sa 15.000 knjiga, šetnja od Nove opštine i dve utakmice Spartaka</title>
+      <link>https://suboticke.rs/kuda-danas-subotica-21-novembar-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/kuda-danas-subotica-21-novembar-2026/</guid>
+      <pubDate>Sat, 21 Nov 2026 09:36:27 +0100</pubDate>
     </item>
   </channel>
 </rss>
