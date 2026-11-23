@@ -57,12 +57,9 @@
   },
   {
     "id": "toplana",
-    "status": "native_feed_verified",
-    "url": "https://toplanasubotica.co.rs/feed/",
-    "feed": {
-      "format": "rss",
-      "items": 10
-    }
+    "status": "fetch_failed",
+    "url": "https://toplanasubotica.co.rs/",
+    "error": "HTTPSConnectionPool(host='toplanasubotica.co.rs', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='toplanasubotica.co.rs', port=443) at 0x75d9b6a75e50>, 'Connection to toplanasubotica.co.rs timed out. (connect timeout=8)'))"
   },
   {
     "id": "suboticagas",
@@ -153,10 +150,13 @@
   },
   {
     "id": "maglocistac-subotica",
-    "status": "http_error",
-    "http_status": 403,
-    "url": "https://www.maglocistac.rs/",
-    "error": "403 Client Error: Forbidden for url: https://www.maglocistac.rs/"
+    "status": "native_feed_verified",
+    "url": "https://www.maglocistac.rs/feed",
+    "feed": {
+      "format": "rss",
+      "items": 30
+    },
+    "discovery": "direct_feed_probe"
   },
   {
     "id": "suboticke",
@@ -208,10 +208,13 @@
   },
   {
     "id": "maglocistac-all",
-    "status": "http_error",
-    "http_status": 403,
-    "url": "https://www.maglocistac.rs/",
-    "error": "403 Client Error: Forbidden for url: https://www.maglocistac.rs/"
+    "status": "native_feed_verified",
+    "url": "https://www.maglocistac.rs/feed",
+    "feed": {
+      "format": "rss",
+      "items": 30
+    },
+    "discovery": "direct_feed_probe"
   },
   {
     "id": "palic-zoo",
