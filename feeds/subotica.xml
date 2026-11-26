@@ -5,7 +5,7 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Wed, 25 Nov 2026 15:39:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 20:00:00 +0100</lastBuildDate>
     <item>
       <title>Obeležen Dan prisajedinjenja Vojvodine Kraljevini Srbiji</title>
       <link>https://www.subotica.com/vesti/obelezen-dan-prisajedinjenja-vojvodine-kraljevini-srbiji-id55545.html</link>
@@ -53,6 +53,12 @@
       <link>https://www.subotica.com/vesti/odbojka-spartak-preko-nisa-do-polufinala-kupa-srbije-id55536.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/odbojka-spartak-preko-nisa-do-polufinala-kupa-srbije-id55536.html</guid>
       <pubDate>Wed, 25 Nov 2026 08:56:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Kišovit četvrtak, pred vikend bez značajnijeg otopljenja</title>
+      <link>https://www.subotica.com/vesti/kisovit-cetvrtak-pred-vikend-bez-znacajnijeg-otopljenja-id55540.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/kisovit-cetvrtak-pred-vikend-bez-znacajnijeg-otopljenja-id55540.html</guid>
+      <pubDate>Wed, 25 Nov 2026 20:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Plivanje: Spartak prvak Vojvodine u svim uzrasnim kategorijama</title>
@@ -145,22 +151,10 @@
       <pubDate>Mon, 23 Nov 2026 20:00:00 +0100</pubDate>
     </item>
     <item>
-      <title>Jedan osoba teže povređena, izdato 1.504 prekršajna naloga</title>
-      <link>https://www.subotica.com/vesti/jedan-osoba-teze-povredjena-izdato-1-504-prekrsajna-naloga-id55518.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/jedan-osoba-teze-povredjena-izdato-1-504-prekrsajna-naloga-id55518.html</guid>
-      <pubDate>Mon, 23 Nov 2026 11:44:00 +0100</pubDate>
-    </item>
-    <item>
       <title>„Subotica, grad skrivenog blaga“ – premijera dokumentarnog filma o manje poznatom arhitektonskom nasleđu grada</title>
       <link>https://www.subotica.com/vesti/subotica-grad-skrivenog-blaga-premijera-dokumentarnog-filma-o-manje-poznatom-arhitektonskom-nasledju-grada-id55467.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/subotica-grad-skrivenog-blaga-premijera-dokumentarnog-filma-o-manje-poznatom-arhitektonskom-nasledju-grada-id55467.html</guid>
       <pubDate>Mon, 23 Nov 2026 09:09:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Policija razrešila dve teške krađe - pljačku menjačnice i obijanje vozila</title>
-      <link>https://www.subotica.com/vesti/policija-razresila-dve-teske-kradje-pljacku-menjacnice-i-obijanje-vozila-id55500.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/policija-razresila-dve-teske-kradje-pljacku-menjacnice-i-obijanje-vozila-id55500.html</guid>
-      <pubDate>Fri, 20 Nov 2026 10:41:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
