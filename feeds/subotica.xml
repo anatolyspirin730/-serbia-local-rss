@@ -5,7 +5,7 @@
     <link>https://www.subotica.com/vesti</link>
     <description>Новости: Subotica.com — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Thu, 26 Nov 2026 15:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 20:00:00 +0100</lastBuildDate>
     <item>
       <title>Kvadrat stanova u Subotici za obračun poreza biće skuplji za više od 10 odsto</title>
       <link>https://www.subotica.com/vesti/kvadrat-stanova-u-subotici-za-obracun-poreza-bice-skuplji-za-vise-od-10-odsto-id55557.html</link>
@@ -23,6 +23,12 @@
       <link>https://www.subotica.com/vesti/veliki-adventski-venac-u-centru-grada-zajednicko-paljenje-svece-svake-subote-id55554.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/veliki-adventski-venac-u-centru-grada-zajednicko-paljenje-svece-svake-subote-id55554.html</guid>
       <pubDate>Thu, 26 Nov 2026 12:55:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Hladno i oblačno do kraja sedmice, u nedelju moguć jutarnji mraz</title>
+      <link>https://www.subotica.com/vesti/hladno-i-oblacno-do-kraja-sedmice-u-nedelju-moguc-jutarnji-mraz-id55559.html</link>
+      <guid isPermaLink="true">https://www.subotica.com/vesti/hladno-i-oblacno-do-kraja-sedmice-u-nedelju-moguc-jutarnji-mraz-id55559.html</guid>
+      <pubDate>Thu, 26 Nov 2026 20:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Odbojka: Spartak protiv Vojvodine za finale Kupa Srbije</title>
@@ -143,12 +149,6 @@
       <link>https://www.subotica.com/vesti/preminuo-mitropolit-backi-irinej-bulovic-sluzi-se-pomen-u-svim-crkvama-u-backoj-id55528.html</link>
       <guid isPermaLink="true">https://www.subotica.com/vesti/preminuo-mitropolit-backi-irinej-bulovic-sluzi-se-pomen-u-svim-crkvama-u-backoj-id55528.html</guid>
       <pubDate>Tue, 24 Nov 2026 11:20:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Raspisan konkurs za podršku mladim talentima – prijave do 7. decembra</title>
-      <link>https://www.subotica.com/vesti/raspisan-konkurs-za-podrsku-mladim-talentima-prijave-do-7-decembra-id55529.html</link>
-      <guid isPermaLink="true">https://www.subotica.com/vesti/raspisan-konkurs-za-podrsku-mladim-talentima-prijave-do-7-decembra-id55529.html</guid>
-      <pubDate>Tue, 24 Nov 2026 12:04:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
