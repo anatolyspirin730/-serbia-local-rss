@@ -5,7 +5,13 @@
     <link>https://suboticke.rs/tema/srbija/vesti/</link>
     <description>Новости: Subotičke — Vesti</description>
     <language>sr</language>
-    <lastBuildDate>Fri, 27 Nov 2026 16:13:13 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 09:26:15 +0100</lastBuildDate>
+    <item>
+      <title>Subotica danas, 28. novembar: Oblačno, do 6 °C, uveče moguća kiša</title>
+      <link>https://suboticke.rs/servisne-informacije-subotica-28-novembar-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/servisne-informacije-subotica-28-novembar-2026/</guid>
+      <pubDate>Sat, 28 Nov 2026 09:24:32 +0100</pubDate>
+    </item>
     <item>
       <title>Pokret građanske Subotice traži objašnjenje o promenama u katastru u centru Palića</title>
       <link>https://suboticke.rs/promene-u-katastru-pokret-gradjanske-subotice/</link>
@@ -205,10 +211,16 @@
       <pubDate>Thu, 19 Nov 2026 13:46:17 +0100</pubDate>
     </item>
     <item>
-      <title>U nedelju se ponavlja glasanje za bunjevački i mađarski savet na tri mesta u Subotici</title>
-      <link>https://suboticke.rs/ponovljeno-glasanje-nacionalni-saveti-subotica/</link>
-      <guid isPermaLink="true">https://suboticke.rs/ponovljeno-glasanje-nacionalni-saveti-subotica/</guid>
-      <pubDate>Thu, 19 Nov 2026 12:48:26 +0100</pubDate>
+      <title>Subota u Subotici: Porodične radionice, adventska sveća, koncerti i pozorišne predstave</title>
+      <link>https://suboticke.rs/desavanja-subotica-28-novembar-2026/</link>
+      <guid isPermaLink="true">https://suboticke.rs/desavanja-subotica-28-novembar-2026/</guid>
+      <pubDate>Sat, 28 Nov 2026 09:26:15 +0100</pubDate>
+    </item>
+    <item>
+      <title>Spartak dvaput stizao Radnički i u petom setu savladao prvaka Srbije</title>
+      <link>https://suboticke.rs/spartak-radnicki-3-2-odbojka-superliga/</link>
+      <guid isPermaLink="true">https://suboticke.rs/spartak-radnicki-3-2-odbojka-superliga/</guid>
+      <pubDate>Fri, 27 Nov 2026 22:38:12 +0100</pubDate>
     </item>
   </channel>
 </rss>
